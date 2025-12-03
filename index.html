@@ -479,24 +479,17 @@
             }
         }
 
-        /**
-         * (MODIFIED) This function runs once on page load to fetch the data.
-         */
         async function loadDataAndRun() {
             try {
-                // This combines both cache-busting methods
-                const response = await fetch('Lessons.txt?cachebust=' + new Date().getTime(), {
-                    cache: 'no-store' // This is a stronger cache-busting signal
+                const response = await fetch('Lessons.tsv?cachebust=' + new Date().getTime(), {
+                    cache: 'no-store'
                 });
                 
                 if (!response.ok) {
-                    throw new Error(`Failed to load Lessons.txt (Status: ${response.status})`);
+                    throw new Error(`Failed to load Lessons.tsv (Status: ${response.status})`);
                 }
 
-                // Fetch as an ArrayBuffer
                 const buffer = await response.arrayBuffer();
-                
-                // Decode the buffer as UTF-8, as you confirmed
                 const tsvData = new TextDecoder('utf-8').decode(buffer);
                 
                 allLessons = parseLessons(tsvData); 
@@ -514,7 +507,7 @@
                 container.innerHTML = `
                     <h2 style="color: red;">Error: Could not load schedule.</h2>
                     <p>${error.message}</p>
-                    <p>Please make sure the <b>Lessons.txt</b> file is uploaded to the same project and is public.</p>`;
+                    <p>Please make sure the <b>Lessons.tsv</b> file is uploaded to the same project and is public.</p>`;
             }
         }
 
