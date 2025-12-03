@@ -126,6 +126,20 @@
         body.count-large .event-details { font-size: 0.8em; }
         body.count-large .event-none { font-size: 0.8em; }
 
+        /* NEW: Extra compact mode for senior views only */
+        body.count-senior #now-next-container {
+            grid-template-columns: repeat(auto-fit, minmax(155px, 1fr));
+            gap: 8px;
+        }
+        body.count-senior .class-header { padding: 6px 10px; }
+        body.count-senior .class-body { padding: 10px; gap: 6px; }
+        body.count-senior .class-header h2 { font-size: 1.1em; }
+        body.count-senior .event-subject { font-size: 0.95em; }
+        body.count-senior .event-teacher,
+        body.count-senior .event-details { font-size: 0.75em; }
+        body.count-senior .event-none { font-size: 0.75em; min-height: 30px; }
+        body.count-senior .event-type { font-size: 0.85em; }
+
     </style>
 </head>
 <body>
@@ -387,7 +401,6 @@
         function updateDashboard() {
             if (allLessons.length === 0) return;
 
-            // --- FIX: Support BOTH 'view' AND 'sign' parameters ---
             const viewParam = getURLParameter('view') || getURLParameter('sign') || 'all'; 
             const view = viewParam.toLowerCase();
             
@@ -396,8 +409,8 @@
                 .sort();
             
             let classNames = [];
+            let isSeniorView = false; // NEW FLAG
             
-            // Logic to handle all cases:
             if (view === 'junior1') {
                 const list = ['4A', '4B', '5A', '5B'];
                 classNames = allClassNames.filter(name => list.includes(name));
@@ -405,30 +418,33 @@
                 const list = ['6A', '6B'];
                 classNames = allClassNames.filter(name => list.includes(name));
             } else if (view === 'junior') {
-                // Legacy "Junior" view (4-6)
                 const list = ['4A', '4B', '5A', '5B', '6A', '6B'];
                 classNames = allClassNames.filter(name => list.includes(name));
             } else if (view === 'senior1') {
                 const list = ['7A', '7B', '7C', '8A', '8B'];
                 classNames = allClassNames.filter(name => list.includes(name));
+                isSeniorView = true; // MARK AS SENIOR
             } else if (view === 'senior2') {
                 const list = ['9A', '9B', '9C', '9D'];
                 classNames = allClassNames.filter(name => list.includes(name));
+                isSeniorView = true; // MARK AS SENIOR
             } else if (view === 'senior') {
-                // Legacy "Senior" view (7-9)
                 const list = ['7A', '7B', '7C', '8A', '8B', '9A', '9B', '9C', '9D'];
                 classNames = allClassNames.filter(name => list.includes(name));
+                isSeniorView = true; // MARK AS SENIOR
             } else {
-                // Default 'all' view
                 classNames = allClassNames; 
             }
 
             const cardCount = classNames.length;
             const bodyEl = document.body;
             
-            bodyEl.classList.remove('count-small', 'count-medium', 'count-large');
+            bodyEl.classList.remove('count-small', 'count-medium', 'count-large', 'count-senior');
             
-            if (cardCount <= 4) {
+            // NEW: Apply count-senior for senior views
+            if (isSeniorView) {
+                bodyEl.classList.add('count-senior');
+            } else if (cardCount <= 4) {
                 bodyEl.classList.add('count-small');
             } else if (cardCount <= 6) {
                 bodyEl.classList.add('count-medium');
