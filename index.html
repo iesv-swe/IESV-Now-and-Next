@@ -470,9 +470,12 @@
             } else if (cardCount <= 9) {
                 cols = 3;
                 rows = 3;
+            } else if (cardCount <= 12) {
+                cols = 4;
+                rows = 3;
             } else {
                 cols = 4;
-                rows = Math.ceil(cardCount / 4);
+                rows = 4;
             }
             
             const container = document.getElementById('now-next-container');
@@ -480,9 +483,9 @@
             const containerHeight = container.offsetHeight;
             
             // Calculate card dimensions with gaps
-            const gap = parseFloat(getComputedStyle(container).gap) || 0;
-            const cardWidth = (containerWidth - (gap * (cols - 1))) / cols;
-            const cardHeight = (containerHeight - (gap * (rows - 1))) / rows;
+            const gapPx = window.innerHeight * 0.01; // 1vh in pixels
+            const cardWidth = (containerWidth - (gapPx * (cols - 1))) / cols;
+            const cardHeight = (containerHeight - (gapPx * (rows - 1))) / rows;
             
             return { cardWidth, cardHeight, cols, rows };
         }
