@@ -605,14 +605,15 @@
                 return;
             }
 
+            // Calculate optimal card sizing based on grid
+            const { cardWidth, cardHeight } = calculateOptimalLayout(classNames.length);
+            
             // Calculate max content height needed
             const maxContentHeight = calculateMaxContentHeight(classNames, nowDay, currentWeek, nowMinutes);
             
-            // Calculate optimal card sizing
-            const { cardWidth, cardHeight } = calculateOptimalLayout(classNames.length);
-            
-            // Use the larger of calculated height or max content height
-            const finalCardHeight = Math.max(cardHeight, maxContentHeight + 20); // +20 for some padding
+            // Use calculated grid height, but allow slight overflow if needed (with scrolling inside cards)
+            // Cap at 90% of calculated height to ensure all cards fit
+            const finalCardHeight = Math.min(cardHeight * 0.95, maxContentHeight + 20);
             
             for (const className of classNames) {
                 const todayLessons = getLessonsForDay(className, nowDay, currentWeek);
