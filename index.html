@@ -416,9 +416,10 @@
                 const startTimeStr = values[colIdx.starttime].trim().padStart(4, '0');
                 const length = parseInt(values[colIdx.length], 10);
                 const subject = values[colIdx.subject].trim();
+                const room = values[colIdx.room].trim();
                 
-                // Skip lessons with D46 in the subject
-                if (subject.includes('D46')) {
+                // Skip lessons with D46 in the subject or room
+                if (subject.includes('D46') || room.includes('D46')) {
                     continue;
                 }
                 
@@ -430,7 +431,7 @@
                 const lessonData = {
                     subject: subject,
                     day: day,
-                    room: values[colIdx.room].trim(),
+                    room: room,
                     teacher: teacherStr,
                     startTime: startTime,
                     endTime: startTime + length,
