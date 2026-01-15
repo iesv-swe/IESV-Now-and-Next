@@ -294,6 +294,46 @@
             gap: 0.7vh;
             column-gap: 1.5vh;
         }
+        
+        /* Force compact mode when content absolutely won't fit */
+        body.force-compact .class-header h2 {
+            font-size: clamp(0.7rem, 1.8vh, 2.5rem);
+        }
+        
+        body.force-compact .event-subject {
+            font-size: clamp(0.6rem, 1.5vh, 2rem);
+        }
+        
+        body.force-compact .event-teacher,
+        body.force-compact .event-details {
+            font-size: clamp(0.5rem, 1.2vh, 1.6rem);
+        }
+        
+        body.force-compact .event-type {
+            font-size: clamp(0.45rem, 1.1vh, 1.6rem);
+        }
+        
+        body.force-compact .class-body {
+            padding: 0.8vh;
+            gap: 0.6vh;
+        }
+        
+        body.force-compact .class-header {
+            padding: 0.8vh 1.2vh;
+        }
+        
+        body.force-compact .event-item {
+            margin-bottom: 0.3vh;
+        }
+        
+        body.force-compact .event-lessons-grid {
+            gap: 0.5vh;
+            column-gap: 1vh;
+        }
+        
+        body.force-compact .event {
+            gap: 0.3vh;
+        }
     </style>
 </head>
 <body>
@@ -565,44 +605,7 @@
             `;
         }
 
-        function calculateMaxContentHeight(classNames, nowDay, currentWeek, nowMinutes) {
-            // Create temporary container to measure heights
-            const tempContainer = document.createElement('div');
-            tempContainer.style.position = 'absolute';
-            tempContainer.style.visibility = 'hidden';
-            tempContainer.style.width = '300px'; // Approximate card width for measurement
-            document.body.appendChild(tempContainer);
-            
-            let maxHeight = 0;
-            
-            for (const className of classNames) {
-                const todayLessons = getLessonsForDay(className, nowDay, currentWeek);
-                const { nowLessons, nextLessons } = getNowAndNext(todayLessons, nowMinutes);
-                
-                const tempCard = document.createElement('div');
-                tempCard.className = 'class-card';
-                tempCard.innerHTML = `
-                    <div class="class-header"><h2>${className}</h2></div>
-                    <div class="class-body">
-                        ${createEventBlockHTML(nowLessons, 'Now')}
-                        ${createEventBlockHTML(nextLessons, 'Next')}
-                    </div>
-                `;
-                tempContainer.appendChild(tempCard);
-                
-                const cardHeight = tempCard.scrollHeight;
-                if (cardHeight > maxHeight) {
-                    maxHeight = cardHeight;
-                }
-                
-                tempContainer.removeChild(tempCard);
-            }
-            
-            document.body.removeChild(tempContainer);
-            return maxHeight;
-        }
-
-        function calculateOptimalLayout(cardCount) {
+        function calculateOptimalLayout(cardCount, classNames, nowDay, currentWeek, nowMinutes) {
             let cols, rows;
             
             if (cardCount <= 2) {
@@ -631,9 +634,62 @@
             
             // Calculate card dimensions
             const cardWidth = (containerWidth - (gap * (cols - 1))) / cols;
-            const cardHeight = (containerHeight - (gap * (rows - 1))) / rows;
+            const availableCardHeight = (containerHeight - (gap * (rows - 1))) / rows;
             
-            return { cardWidth, cardHeight, cols, rows };
+            // Now measure actual content heights needed for each card
+            const tempContainer = document.createElement('div');
+            tempContainer.style.position = 'absolute';
+            tempContainer.style.visibility = 'hidden';
+            tempContainer.style.width = cardWidth + 'px';
+            document.body.appendChild(tempContainer);
+            
+            let maxNeededHeight = 0;
+            const contentHeights = [];
+            
+            for (const className of classNames) {
+                const todayLessons = getLessonsForDay(className, nowDay, currentWeek);
+                const { nowLessons, nextLessons } = getNowAndNext(todayLessons, nowMinutes);
+                
+                const tempCard = document.createElement('div');
+                tempCard.className = 'class-card';
+                tempCard.style.width = cardWidth + 'px';
+                
+                const totalLessons = (nowLessons?.length || 0) + (nextLessons?.length || 0);
+                if (totalLessons >= 8) {
+                    tempCard.classList.add('card-scale-xs');
+                } else if (totalLessons >= 6) {
+                    tempCard.classList.add('card-scale-sm');
+                } else if (totalLessons >= 4) {
+                    tempCard.classList.add('card-scale-md');
+                }
+                
+                tempCard.innerHTML = `
+                    <div class="class-header"><h2>${className}</h2></div>
+                    <div class="class-body">
+                        ${createEventBlockHTML(nowLessons, 'Now')}
+                        ${createEventBlockHTML(nextLessons, 'Next')}
+                    </div>
+                `;
+                
+                tempContainer.appendChild(tempCard);
+                const neededHeight = tempCard.scrollHeight;
+                contentHeights.push(neededHeight);
+                if (neededHeight > maxNeededHeight) {
+                    maxNeededHeight = neededHeight;
+                }
+                tempContainer.removeChild(tempCard);
+            }
+            
+            document.body.removeChild(tempContainer);
+            
+            // Use the maximum of available height or needed height, but cap at available
+            // If content needs more space, we'll have to scale it down
+            let finalCardHeight = Math.min(availableCardHeight, maxNeededHeight);
+            
+            // If max needed is greater than available, we need to scale down globally
+            let needsScaling = maxNeededHeight > availableCardHeight;
+            
+            return { cardWidth, cardHeight: finalCardHeight, cols, rows, needsScaling, maxNeededHeight, availableCardHeight };
         }
 
         function updateDashboard() {
@@ -696,15 +752,15 @@
                 return;
             }
 
-            // Calculate optimal card sizing based on grid
-            const { cardWidth, cardHeight } = calculateOptimalLayout(classNames.length);
+            // Calculate optimal layout with actual content measurement
+            const layout = calculateOptimalLayout(classNames.length, classNames, nowDay, currentWeek, nowMinutes);
             
-            // Calculate max content height needed
-            const maxContentHeight = calculateMaxContentHeight(classNames, nowDay, currentWeek, nowMinutes);
-            
-            // Use calculated grid height, but allow slight overflow if needed (with scrolling inside cards)
-            // Cap at 90% of calculated height to ensure all cards fit
-            const finalCardHeight = Math.min(cardHeight * 0.95, maxContentHeight + 20);
+            // If content doesn't fit, add extra global scaling
+            if (layout.needsScaling) {
+                document.body.classList.add('force-compact');
+            } else {
+                document.body.classList.remove('force-compact');
+            }
             
             for (const className of classNames) {
                 const todayLessons = getLessonsForDay(className, nowDay, currentWeek);
@@ -712,8 +768,8 @@
                 
                 const nowNextCard = document.createElement('div');
                 nowNextCard.className = 'class-card';
-                nowNextCard.style.width = `${cardWidth}px`;
-                nowNextCard.style.height = `${finalCardHeight}px`;
+                nowNextCard.style.width = `${layout.cardWidth}px`;
+                nowNextCard.style.height = `${layout.cardHeight}px`;
                 
                 // Calculate total number of lessons to determine scaling
                 const totalLessons = (nowLessons?.length || 0) + (nextLessons?.length || 0);
