@@ -101,11 +101,84 @@
         }
         
         #now-next-container {
-            display: flex;
-            flex-wrap: wrap;
+            display: grid;
             gap: 1vh;
             width: 100%;
-            align-content: stretch;
+            height: 100%;
+            grid-auto-rows: 1fr;
+        }
+        
+        /* Dynamic grid columns based on card count */
+        body[data-card-count="1"] #now-next-container { grid-template-columns: 1fr; }
+        body[data-card-count="2"] #now-next-container { grid-template-columns: repeat(2, 1fr); }
+        body[data-card-count="3"] #now-next-container { grid-template-columns: repeat(3, 1fr); }
+        body[data-card-count="4"] #now-next-container { grid-template-columns: repeat(2, 1fr); }
+        body[data-card-count="5"] #now-next-container,
+        body[data-card-count="6"] #now-next-container { grid-template-columns: repeat(3, 1fr); }
+        body[data-card-count="7"] #now-next-container,
+        body[data-card-count="8"] #now-next-container,
+        body[data-card-count="9"] #now-next-container { grid-template-columns: repeat(3, 1fr); }
+        body[data-card-count="10"] #now-next-container,
+        body[data-card-count="11"] #now-next-container,
+        body[data-card-count="12"] #now-next-container { grid-template-columns: repeat(4, 1fr); }
+        body[data-card-count="13"] #now-next-container,
+        body[data-card-count="14"] #now-next-container,
+        body[data-card-count="15"] #now-next-container,
+        body[data-card-count="16"] #now-next-container { grid-template-columns: repeat(4, 1fr); }
+        
+        /* Reduce text sizes for 13-16 cards */
+        body[data-card-count="13"] .class-header h2,
+        body[data-card-count="14"] .class-header h2,
+        body[data-card-count="15"] .class-header h2,
+        body[data-card-count="16"] .class-header h2 {
+            font-size: clamp(0.9rem, 2vh, 3rem);
+        }
+        
+        body[data-card-count="13"] .event-subject,
+        body[data-card-count="14"] .event-subject,
+        body[data-card-count="15"] .event-subject,
+        body[data-card-count="16"] .event-subject {
+            font-size: clamp(0.75rem, 1.8vh, 2.5rem);
+        }
+        
+        body[data-card-count="13"] .event-teacher,
+        body[data-card-count="14"] .event-teacher,
+        body[data-card-count="15"] .event-teacher,
+        body[data-card-count="16"] .event-teacher,
+        body[data-card-count="13"] .event-details,
+        body[data-card-count="14"] .event-details,
+        body[data-card-count="15"] .event-details,
+        body[data-card-count="16"] .event-details {
+            font-size: clamp(0.65rem, 1.5vh, 2rem);
+        }
+        
+        body[data-card-count="13"] .event-type,
+        body[data-card-count="14"] .event-type,
+        body[data-card-count="15"] .event-type,
+        body[data-card-count="16"] .event-type {
+            font-size: clamp(0.6rem, 1.4vh, 2rem);
+        }
+        
+        body[data-card-count="13"] .class-header,
+        body[data-card-count="14"] .class-header,
+        body[data-card-count="15"] .class-header,
+        body[data-card-count="16"] .class-header {
+            padding: 1vh 1.5vh;
+        }
+        
+        body[data-card-count="13"] .class-body,
+        body[data-card-count="14"] .class-body,
+        body[data-card-count="15"] .class-body,
+        body[data-card-count="16"] .class-body {
+            padding: 1.5vh;
+            gap: 1vh;
+        }
+        
+        body[data-card-count="13"] .event-item,
+        body[data-card-count="14"] .event-item,
+        body[data-card-count="15"] .event-item,
+        body[data-card-count="16"] .event-item {
+            margin-bottom: 0.5vh;
         }
         
         .class-card {
@@ -116,7 +189,7 @@
             overflow: hidden;
             display: flex;
             flex-direction: column;
-            flex: 1 1 auto;
+            min-height: 0;
         }
         
         .class-header {
@@ -454,42 +527,6 @@
             `;
         }
 
-        function calculateCardDimensions(cardCount) {
-            // Calculate optimal grid layout based on card count
-            let cols, rows;
-            
-            if (cardCount <= 2) {
-                cols = cardCount;
-                rows = 1;
-            } else if (cardCount <= 4) {
-                cols = 2;
-                rows = 2;
-            } else if (cardCount <= 6) {
-                cols = 3;
-                rows = 2;
-            } else if (cardCount <= 9) {
-                cols = 3;
-                rows = 3;
-            } else if (cardCount <= 12) {
-                cols = 4;
-                rows = 3;
-            } else {
-                cols = 4;
-                rows = 4;
-            }
-            
-            const container = document.getElementById('now-next-container');
-            const containerWidth = container.offsetWidth;
-            const containerHeight = container.offsetHeight;
-            
-            // Calculate card dimensions with gaps
-            const gapPx = window.innerHeight * 0.01; // 1vh in pixels
-            const cardWidth = (containerWidth - (gapPx * (cols - 1))) / cols;
-            const cardHeight = (containerHeight - (gapPx * (rows - 1))) / rows;
-            
-            return { cardWidth, cardHeight, cols, rows };
-        }
-
         function updateDashboard() {
             if (allLessons.length === 0) return;
 
@@ -527,6 +564,9 @@
             const nowNextContainer = document.getElementById('now-next-container');
             nowNextContainer.innerHTML = ''; 
             
+            // Set card count for CSS grid layout
+            document.body.setAttribute('data-card-count', classNames.length);
+            
             const now = new Date(new Date().toLocaleString("en-US", {timeZone: "Europe/Stockholm"}));
             const nowDay = now.getDay(); 
             const nowMinutes = (now.getHours() * 60) + now.getMinutes();
@@ -551,7 +591,6 @@
             }
 
             // Calculate optimal card sizing
-            const { cardWidth, cardHeight, cols } = calculateCardDimensions(classNames.length);
             
             for (const className of classNames) {
                 const todayLessons = getLessonsForDay(className, nowDay, currentWeek);
@@ -559,9 +598,6 @@
                 
                 const nowNextCard = document.createElement('div');
                 nowNextCard.className = 'class-card';
-                nowNextCard.style.width = `${cardWidth}px`;
-                nowNextCard.style.minHeight = `${cardHeight}px`;
-                nowNextCard.style.maxHeight = `${cardHeight}px`;
                 
                 nowNextCard.innerHTML = `
                     <div class="class-header"><h2>${className}</h2></div>
