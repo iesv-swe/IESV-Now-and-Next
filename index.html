@@ -149,6 +149,19 @@
             gap: 0.5vh;
         }
         
+        .event-lessons-single {
+            display: flex;
+            flex-direction: column;
+            gap: 1vh;
+        }
+        
+        .event-lessons-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1vh;
+            column-gap: 2vh;
+        }
+        
         .event-type {
             font-weight: bold;
             font-size: clamp(0.7rem, 1.8vh, 2.5rem);
@@ -422,6 +435,10 @@
                 ? `Ends at ${lessons[0].endTimeStr}` 
                 : `Starts at ${lessons[0].startTimeStr}`;
             
+            // Use 2-column layout if there are 3+ lessons
+            const use2Columns = lessons.length >= 3;
+            const columnClass = use2Columns ? 'event-lessons-grid' : 'event-lessons-single';
+            
             const lessonHtml = lessons.map(lesson => {
                 const location = lesson.room ? `(${lesson.room})` : '';
                 
@@ -449,10 +466,49 @@
             return `
                 <div class="event">
                     <div class="event-type ${typeClass}">${typeLabel}</div>
-                    ${lessonHtml}
+                    <div class="${columnClass}">
+                        ${lessonHtml}
+                    </div>
                     <div class="event-details">${timeDetails}</div>
                 </div>
             `;
+        }
+
+        function calculateMaxContentHeight(classNames, nowDay, currentWeek, nowMinutes) {
+            // Create temporary container to measure heights
+            const tempContainer = document.createElement('div');
+            tempContainer.style.position = 'absolute';
+            tempContainer.style.visibility = 'hidden';
+            tempContainer.style.width = '300px'; // Approximate card width for measurement
+            document.body.appendChild(tempContainer);
+            
+            let maxHeight = 0;
+            
+            for (const className of classNames) {
+                const todayLessons = getLessonsForDay(className, nowDay, currentWeek);
+                const { nowLessons, nextLessons } = getNowAndNext(todayLessons, nowMinutes);
+                
+                const tempCard = document.createElement('div');
+                tempCard.className = 'class-card';
+                tempCard.innerHTML = `
+                    <div class="class-header"><h2>${className}</h2></div>
+                    <div class="class-body">
+                        ${createEventBlockHTML(nowLessons, 'Now')}
+                        ${createEventBlockHTML(nextLessons, 'Next')}
+                    </div>
+                `;
+                tempContainer.appendChild(tempCard);
+                
+                const cardHeight = tempCard.scrollHeight;
+                if (cardHeight > maxHeight) {
+                    maxHeight = cardHeight;
+                }
+                
+                tempContainer.removeChild(tempCard);
+            }
+            
+            document.body.removeChild(tempContainer);
+            return maxHeight;
         }
 
         function calculateOptimalLayout(cardCount) {
@@ -549,8 +605,14 @@
                 return;
             }
 
+            // Calculate max content height needed
+            const maxContentHeight = calculateMaxContentHeight(classNames, nowDay, currentWeek, nowMinutes);
+            
             // Calculate optimal card sizing
             const { cardWidth, cardHeight } = calculateOptimalLayout(classNames.length);
+            
+            // Use the larger of calculated height or max content height
+            const finalCardHeight = Math.max(cardHeight, maxContentHeight + 20); // +20 for some padding
             
             for (const className of classNames) {
                 const todayLessons = getLessonsForDay(className, nowDay, currentWeek);
@@ -559,7 +621,7 @@
                 const nowNextCard = document.createElement('div');
                 nowNextCard.className = 'class-card';
                 nowNextCard.style.width = `${cardWidth}px`;
-                nowNextCard.style.height = `${cardHeight}px`;
+                nowNextCard.style.height = `${finalCardHeight}px`;
                 
                 nowNextCard.innerHTML = `
                     <div class="class-header"><h2>${className}</h2></div>
