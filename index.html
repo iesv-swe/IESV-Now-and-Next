@@ -343,50 +343,104 @@
         
         /* Mobile responsive adjustments */
         @media (max-width: 768px) {
-            #header {
-                height: 10vh;
-            }
-            
-            #logo-img {
-                max-height: 8vh;
-            }
-            
-            h1 {
-                font-size: clamp(1.2rem, 2.5vh, 3rem);
-            }
-            
-            #clock {
-                font-size: clamp(0.9rem, 2vh, 2.5rem);
-            }
-            
-            #week-display {
-                font-size: clamp(0.7rem, 1.5vh, 2rem);
-            }
-            
-            /* Force single column on mobile */
-            #now-next-container {
-                gap: 2vh;
-            }
-            
-            .class-card {
-                width: 100% !important;
-                height: auto !important;
-                min-height: 20vh;
-            }
-            
-            .class-body {
-                padding: 2vh;
-                gap: 2vh;
-            }
-        }
-        
-        @media (max-width: 480px) {
             body {
                 padding: 0.5vh;
             }
             
             #header {
-                margin-bottom: 0.5vh;
+                height: auto;
+                flex-direction: column;
+                margin-bottom: 1vh;
+            }
+            
+            #logo-container,
+            #header-spacer {
+                display: none;
+            }
+            
+            #header-text {
+                width: 100%;
+            }
+            
+            h1 {
+                font-size: 1.8rem;
+                margin-bottom: 0.3vh;
+            }
+            
+            #clock {
+                font-size: 1.2rem;
+            }
+            
+            #week-display {
+                font-size: 1rem;
+            }
+            
+            /* Force vertical stacking of cards */
+            #now-next-container {
+                display: flex;
+                flex-direction: column;
+                gap: 1.5vh;
+                width: 100%;
+            }
+            
+            .class-card {
+                width: 100% !important;
+                height: auto !important;
+                min-height: 0;
+            }
+            
+            .class-body {
+                padding: 1.5vh;
+                gap: 1.5vh;
+                grid-template-columns: 1fr 1fr;
+            }
+            
+            .class-header h2 {
+                font-size: 1.3rem;
+            }
+            
+            .event-subject {
+                font-size: 1rem;
+            }
+            
+            .event-teacher,
+            .event-details {
+                font-size: 0.85rem;
+            }
+            
+            .event-type {
+                font-size: 0.8rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+            
+            #clock {
+                font-size: 1rem;
+            }
+            
+            #week-display {
+                font-size: 0.85rem;
+            }
+            
+            .class-header h2 {
+                font-size: 1.1rem;
+            }
+            
+            .event-subject {
+                font-size: 0.9rem;
+            }
+            
+            .event-teacher,
+            .event-details {
+                font-size: 0.75rem;
+            }
+            
+            .event-type {
+                font-size: 0.7rem;
             }
         }
     </style>
