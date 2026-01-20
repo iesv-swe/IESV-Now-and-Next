@@ -19,17 +19,8 @@
             --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
         }
         
-        * {
-            box-sizing: border-box;
-        }
-        
-        html, body {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-        }
-        
+        * { box-sizing: border-box; }
+        html, body { height: 100%; margin: 0; padding: 0; overflow: hidden; }
         body {
             font-family: var(--font-main);
             background-color: var(--color-bg);
@@ -39,74 +30,21 @@
             padding: 1vh;
         }
 
-        #header {
-            display: flex;
-            align-items: center;
-            margin-bottom: 1vh;
-            height: 12vh;
-            flex-shrink: 0;
+        #header { display: flex; align-items: center; margin-bottom: 1vh; height: 12vh; flex-shrink: 0; }
+        #logo-container { flex: 1; text-align: left; height: 100%; display: flex; align-items: center; }
+        #logo-img { height: 90%; width: auto; max-height: 10vh; }
+        #header-text { flex: 1; text-align: center; }
+        #header-spacer { flex: 1; }
+
+        h1 { color: var(--color-text-header); text-align: center; font-size: clamp(1.5rem, 3.5vh, 4rem); margin: 0 0 0.5vh 0; line-height: 1.2; }
+        #clock { text-align: center; font-size: clamp(1rem, 2.5vh, 3rem); color: var(--color-text-secondary); margin: 0; line-height: 1.2; }
+        #week-display { text-align: center; font-size: clamp(0.8rem, 2vh, 2.5rem); font-weight: bold; color: var(--color-text-header); margin: 0; line-height: 1.2; }
+        
+        #nowNextView { flex: 1; display: flex; overflow: hidden; }
+        @media (max-width: 900px) { /* expanded breakpoint to catch more phones */
+            #nowNextView { overflow-y: auto; }
         }
 
-        #logo-container {
-            flex: 1;
-            text-align: left;
-            height: 100%;
-            display: flex;
-            align-items: center;
-        }
-        
-        #logo-img {
-            height: 90%;
-            width: auto;
-            max-height: 10vh;
-        }
-
-        #header-text {
-            flex: 1;
-            text-align: center;
-        }
-        
-        #header-spacer {
-            flex: 1;
-        }
-
-        h1 {
-            color: var(--color-text-header);
-            text-align: center;
-            font-size: clamp(1.5rem, 3.5vh, 4rem);
-            margin: 0 0 0.5vh 0;
-            line-height: 1.2;
-        }
-
-        #clock {
-            text-align: center;
-            font-size: clamp(1rem, 2.5vh, 3rem);
-            color: var(--color-text-secondary);
-            margin: 0;
-            line-height: 1.2;
-        }
-
-        #week-display {
-            text-align: center;
-            font-size: clamp(0.8rem, 2vh, 2.5rem);
-            font-weight: bold;
-            color: var(--color-text-header);
-            margin: 0;
-            line-height: 1.2;
-        }
-        
-        #nowNextView {
-            flex: 1;
-            display: flex;
-            overflow: hidden;
-        }
-        
-        @media (max-width: 768px) {
-            #nowNextView {
-                overflow-y: auto;
-            }
-        }
-        
         #now-next-container {
             display: flex;
             flex-wrap: wrap;
@@ -126,19 +64,9 @@
             flex-direction: column;
         }
         
-        .class-header {
-            padding: 1.5vh 2vh;
-            border-bottom: 1px solid var(--color-border);
-            flex-shrink: 0;
-        }
-        
-        .class-header h2 {
-            margin: 0;
-            font-size: clamp(1.2rem, 3vh, 4rem);
-            color: var(--color-text-primary);
-            line-height: 1.2;
-        }
-        
+        .class-header { padding: 1.5vh 2vh; border-bottom: 1px solid var(--color-border); flex-shrink: 0; }
+        .class-header h2 { margin: 0; font-size: clamp(1.2rem, 3vh, 4rem); color: var(--color-text-primary); line-height: 1.2; }
+
         .class-body {
             padding: 2vh;
             display: grid;
@@ -147,321 +75,123 @@
             flex-grow: 1;
             overflow: hidden;
         }
-        
-        .event {
-            line-height: 1.3;
-            display: flex;
-            flex-direction: column;
-            gap: 0.5vh;
-        }
-        
-        .event-lessons-single {
-            display: flex;
-            flex-direction: column;
-            gap: 1vh;
-        }
-        
-        .event-lessons-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 1vh;
-            column-gap: 2vh;
-        }
-        
-        .event-type {
-            font-weight: bold;
-            font-size: clamp(0.7rem, 1.8vh, 2.5rem);
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-        }
-        
+
+        .event { line-height: 1.3; display:flex; flex-direction:column; gap: 0.5vh; }
+        .event-lessons-single { display:flex; flex-direction:column; gap: 1vh; }
+        .event-lessons-grid { display:grid; grid-template-columns: repeat(2, 1fr); gap:1vh; column-gap:2vh; }
+
+        .event-type { font-weight:bold; font-size: clamp(0.7rem, 1.8vh, 2.5rem); text-transform: uppercase; letter-spacing:0.05em; }
         .event-type.now { color: var(--color-now); }
         .event-type.next { color: var(--color-next); }
         .event-type.break { color: var(--color-break); }
-        
-        .event-item {
-            margin-bottom: 1vh;
-        }
-        
-        .event-item:last-child {
-            margin-bottom: 0;
-        }
-        
-        .event-subject {
-            font-size: clamp(1rem, 2.5vh, 3.5rem);
-            font-weight: 600;
-            margin: 0.3vh 0;
-            line-height: 1.3;
-        }
-        
-        .event-teacher {
-            font-size: clamp(0.8rem, 2vh, 3rem);
-            color: var(--color-text-secondary);
-            font-weight: 600;
-            line-height: 1.3;
-        }
-        
-        .event-details {
-            font-size: clamp(0.8rem, 2vh, 3rem);
-            color: var(--color-text-secondary);
-            margin-top: 1vh;
-            line-height: 1.3;
-        }
-        
-        .event-none {
-            font-size: clamp(0.9rem, 2.2vh, 3rem);
-            color: var(--color-text-secondary);
-            flex-grow: 1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        /* Dynamic scaling for cards with many classes */
-        .card-scale-md .class-header h2 {
-            font-size: clamp(1rem, 2.5vh, 3.5rem);
-        }
-        
-        .card-scale-md .event-subject {
-            font-size: clamp(0.85rem, 2vh, 3rem);
-        }
-        
-        .card-scale-md .event-teacher,
-        .card-scale-md .event-details {
-            font-size: clamp(0.7rem, 1.7vh, 2.5rem);
-        }
-        
-        .card-scale-md .event-type {
-            font-size: clamp(0.65rem, 1.6vh, 2.2rem);
-        }
-        
-        .card-scale-md .class-body {
-            padding: 1.5vh;
-            gap: 1.5vh;
-        }
-        
-        .card-scale-md .event-item {
-            margin-bottom: 0.7vh;
-        }
-        
-        .card-scale-sm .class-header h2 {
-            font-size: clamp(0.9rem, 2.2vh, 3rem);
-        }
-        
-        .card-scale-sm .event-subject {
-            font-size: clamp(0.75rem, 1.8vh, 2.5rem);
-        }
-        
-        .card-scale-sm .event-teacher,
-        .card-scale-sm .event-details {
-            font-size: clamp(0.65rem, 1.5vh, 2rem);
-        }
-        
-        .card-scale-sm .event-type {
-            font-size: clamp(0.6rem, 1.4vh, 2rem);
-        }
-        
-        .card-scale-sm .class-body {
-            padding: 1.2vh;
-            gap: 1vh;
-        }
-        
-        .card-scale-sm .event-item {
-            margin-bottom: 0.5vh;
-        }
-        
-        .card-scale-xs .class-header h2 {
-            font-size: clamp(0.8rem, 2vh, 2.8rem);
-        }
-        
-        .card-scale-xs .event-subject {
-            font-size: clamp(0.65rem, 1.6vh, 2.2rem);
-        }
-        
-        .card-scale-xs .event-teacher,
-        .card-scale-xs .event-details {
-            font-size: clamp(0.55rem, 1.3vh, 1.8rem);
-        }
-        
-        .card-scale-xs .event-type {
-            font-size: clamp(0.5rem, 1.2vh, 1.8rem);
-        }
-        
-        .card-scale-xs .class-body {
-            padding: 1vh;
-            gap: 0.8vh;
-        }
-        
-        .card-scale-xs .event-item {
-            margin-bottom: 0.4vh;
-        }
-        
-        .card-scale-xs .event-lessons-grid {
-            gap: 0.7vh;
-            column-gap: 1.5vh;
-        }
-        
-        /* Force compact mode when content absolutely won't fit */
-        body.force-compact .class-header h2 {
-            font-size: clamp(0.7rem, 1.8vh, 2.5rem);
-        }
-        
-        body.force-compact .event-subject {
-            font-size: clamp(0.6rem, 1.5vh, 2rem);
-        }
-        
-        body.force-compact .event-teacher,
-        body.force-compact .event-details {
-            font-size: clamp(0.5rem, 1.2vh, 1.6rem);
-        }
-        
-        body.force-compact .event-type {
-            font-size: clamp(0.45rem, 1.1vh, 1.6rem);
-        }
-        
-        body.force-compact .class-body {
-            padding: 0.8vh;
-            gap: 0.6vh;
-        }
-        
-        body.force-compact .class-header {
-            padding: 0.8vh 1.2vh;
-        }
-        
-        body.force-compact .event-item {
-            margin-bottom: 0.3vh;
-        }
-        
-        body.force-compact .event-lessons-grid {
-            gap: 0.5vh;
-            column-gap: 1vh;
-        }
-        
-        body.force-compact .event {
-            gap: 0.3vh;
-        }
-        
-        /* Mobile responsive adjustments */
-        @media (max-width: 768px) {
-            /* Allow page scrolling on mobile devices */
-            html, body {
-                overflow: auto;
+
+        .event-item { margin-bottom: 1vh; }
+        .event-item:last-child { margin-bottom: 0; }
+
+        .event-subject { font-size: clamp(1rem, 2.5vh, 3.5rem); font-weight: 600; margin: 0.3vh 0; line-height:1.3; }
+        .event-teacher { font-size: clamp(0.8rem, 2vh, 3rem); color: var(--color-text-secondary); font-weight:600; line-height:1.3; }
+        .event-details { font-size: clamp(0.8rem, 2vh, 3rem); color: var(--color-text-secondary); margin-top:1vh; line-height:1.3; }
+        .event-none { font-size: clamp(0.9rem, 2.2vh, 3rem); color: var(--color-text-secondary); flex-grow:1; display:flex; align-items:center; justify-content:center; }
+
+        /* scaling classes unchanged... (kept as before) */
+        .card-scale-md .class-header h2 { font-size: clamp(1rem, 2.5vh, 3.5rem); }
+        .card-scale-md .event-subject { font-size: clamp(0.85rem, 2vh, 3rem); }
+        .card-scale-md .event-teacher, .card-scale-md .event-details { font-size: clamp(0.7rem, 1.7vh, 2.5rem); }
+        .card-scale-md .event-type { font-size: clamp(0.65rem, 1.6vh, 2.2rem); }
+        .card-scale-md .class-body { padding:1.5vh; gap:1.5vh; }
+        .card-scale-md .event-item { margin-bottom:0.7vh; }
+
+        .card-scale-sm .class-header h2 { font-size: clamp(0.9rem, 2.2vh, 3rem); }
+        .card-scale-sm .event-subject { font-size: clamp(0.75rem, 1.8vh, 2.5rem); }
+        .card-scale-sm .event-teacher, .card-scale-sm .event-details { font-size: clamp(0.65rem, 1.5vh, 2rem); }
+        .card-scale-sm .event-type { font-size: clamp(0.6rem, 1.4vh, 2rem); }
+        .card-scale-sm .class-body { padding:1.2vh; gap:1vh; }
+        .card-scale-sm .event-item { margin-bottom:0.5vh; }
+
+        .card-scale-xs .class-header h2 { font-size: clamp(0.8rem, 2vh, 2.8rem); }
+        .card-scale-xs .event-subject { font-size: clamp(0.65rem, 1.6vh, 2.2rem); }
+        .card-scale-xs .event-teacher, .card-scale-xs .event-details { font-size: clamp(0.55rem, 1.3vh, 1.8rem); }
+        .card-scale-xs .event-type { font-size: clamp(0.5rem, 1.2vh, 1.8rem); }
+        .card-scale-xs .class-body { padding:1vh; gap:0.8vh; }
+        .card-scale-xs .event-item { margin-bottom:0.4vh; }
+        .card-scale-xs .event-lessons-grid { gap:0.7vh; column-gap:1.5vh; }
+
+        body.force-compact .class-header h2 { font-size: clamp(0.7rem, 1.8vh, 2.5rem); }
+        body.force-compact .event-subject { font-size: clamp(0.6rem, 1.5vh, 2rem); }
+        body.force-compact .event-teacher, body.force-compact .event-details { font-size: clamp(0.5rem, 1.2vh, 1.6rem); }
+        body.force-compact .event-type { font-size: clamp(0.45rem, 1.1vh, 1.6rem); }
+        body.force-compact .class-body { padding:0.8vh; gap:0.6vh; }
+        body.force-compact .class-header { padding:0.8vh 1.2vh; }
+        body.force-compact .event-item { margin-bottom:0.3vh; }
+        body.force-compact .event-lessons-grid { gap:0.5vh; column-gap:1vh; }
+        body.force-compact .event { gap:0.3vh; }
+
+        /* Strong mobile-only overrides to force single-column stacking on phones */
+        @media (max-width: 900px) {
+            /* allow scrolling */
+            html, body { overflow: auto; }
+
+            body { padding: 0.5vh; }
+
+            #header { height: auto; flex-direction: column; margin-bottom: 1vh; }
+            #logo-container, #header-spacer { display: none; }
+            #header-text { width: 100%; }
+
+            h1 { font-size: 1.8rem; margin-bottom: 0.3vh; }
+            #clock { font-size: 1.2rem; }
+            #week-display { font-size: 1rem; }
+
+            /* Force vertical stacking of cards: use block to remove flex-wrap behavior entirely on mobile */
+            #now-next-container {
+                display: block !important;
+                width: 100% !important;
             }
 
-            body {
-                padding: 0.5vh;
-            }
-            
-            #header {
-                height: auto;
-                flex-direction: column;
-                margin-bottom: 1vh;
-            }
-            
-            #logo-container,
-            #header-spacer {
-                display: none;
-            }
-            
-            #header-text {
-                width: 100%;
-            }
-            
-            h1 {
-                font-size: 1.8rem;
-                margin-bottom: 0.3vh;
-            }
-            
-            #clock {
-                font-size: 1.2rem;
-            }
-            
-            #week-display {
-                font-size: 1rem;
-            }
-            
-            /* Force vertical stacking of cards on mobile */
-            #now-next-container {
-                display: flex;
-                flex-direction: column;
-                gap: 1.5vh;
-                width: 100%;
-            }
-            
-            /* Ensure cards fill available width on small screens */
+            /* Override any inline width set by JS; force full-width cards */
             .class-card {
                 width: 100% !important;
                 max-width: 100% !important;
+                flex: none !important;
+                display: block !important;
                 height: auto !important;
-                min-height: 0;
-            }
-            
-            .class-body {
-                padding: 1.5vh;
-                gap: 1.5vh;
-                grid-template-columns: 1fr 1fr; /* keep two columns on larger phones/tablets unless very narrow */
-            }
-            
-            .class-header h2 {
-                font-size: 1.3rem;
-            }
-            
-            .event-subject {
-                font-size: 1rem;
-            }
-            
-            .event-teacher,
-            .event-details {
-                font-size: 0.85rem;
-            }
-            
-            .event-type {
-                font-size: 0.8rem;
-            }
-        }
-        
-        /* Very narrow phones: stack inner event columns */
-        @media (max-width: 480px) {
-            h1 {
-                font-size: 1.5rem;
-            }
-            
-            #clock {
-                font-size: 1rem;
-            }
-            
-            #week-display {
-                font-size: 0.85rem;
-            }
-            
-            .class-header h2 {
-                font-size: 1.1rem;
-            }
-            
-            .event-subject {
-                font-size: 0.9rem;
-            }
-            
-            .event-teacher,
-            .event-details {
-                font-size: 0.75rem;
-            }
-            
-            .event-type {
-                font-size: 0.7rem;
+                min-height: 0 !important;
+                margin: 0 0 1.2vh 0 !important;
             }
 
-            /* Single column inside each card to avoid cramped two-column inner layout */
-            .class-body {
-                grid-template-columns: 1fr;
-            }
+            /* Reduce paddings on small screens to allow more content */
+            .class-header { padding: 1vh 1.2vh !important; }
+            .class-body { padding: 1vh 1.2vh !important; gap: 1vh !important; }
+
+            /* On slightly larger phones keep two column inner layout; on narrow ones we'll stack below */
+            .class-body { grid-template-columns: 1fr 1fr; }
+
+            .class-header h2 { font-size: 1.3rem; }
+            .event-subject { font-size: 1rem; }
+            .event-teacher, .event-details { font-size: 0.85rem; }
+            .event-type { font-size: 0.8rem; }
+
+            /* Ensure children wrap text instead of overflowing */
+            .class-card *, .class-body * { white-space: normal !important; word-break: break-word !important; overflow-wrap: break-word !important; }
+        }
+
+        /* Very narrow phones - stack inner columns so card content won't be cramped */
+        @media (max-width: 480px) {
+            h1 { font-size: 1.5rem; }
+            #clock { font-size: 1rem; }
+            #week-display { font-size: 0.85rem; }
+
+            .class-header h2 { font-size: 1.1rem; }
+            .event-subject { font-size: 0.9rem; }
+            .event-teacher, .event-details { font-size: 0.75rem; }
+            .event-type { font-size: 0.7rem; }
+
+            .class-body { grid-template-columns: 1fr !important; }
         }
     </style>
 </head>
 <body>
 
     <div id="header">
-        
         <div id="logo-container">
             <img id="logo-img" src="logo.png" alt="School Logo"> 
         </div>
@@ -473,11 +203,10 @@
         </div>
         
         <div id="header-spacer"></div>
-        
     </div>
+
     <div id="nowNextView">
-        <div id="now-next-container">
-            </div>
+        <div id="now-next-container"></div>
     </div>
 
     <script>
@@ -534,14 +263,8 @@
         function parseLessons(tsv) {
             const lessons = [];
             const lines = tsv.trim().split(/[\r\n]+/);
-            
-            if (lines.length < 2) {
-                console.error("No data found or invalid data format.");
-                return [];
-            }
-            
+            if (lines.length < 2) { console.error("No data found or invalid data format."); return []; }
             const headers = lines[0].split('\t').map(h => h.trim());
-            
             const colIdx = {
                 group: headers.indexOf('group'),
                 subject: headers.indexOf('subject'),
@@ -552,43 +275,24 @@
                 realweeks: headers.indexOf('realweeks'),
                 teacher: headers.indexOf('teacher')
             };
-
             for (const key in colIdx) {
-                if (colIdx[key] === -1) {
-                    console.error(`Error: Required column "${key}" not found in data.`);
-                    return []; 
-                }
+                if (colIdx[key] === -1) { console.error(`Error: Required column "${key}" not found in data.`); return []; }
             }
-            
             const validDays = ["Mon", "Tue", "Wed", "Thur", "Fri"];
-            
             for (let i = 1; i < lines.length; i++) {
                 const values = lines[i].split('\t');
                 if (values.length < headers.length) continue;
-
                 const teacherStr = values[colIdx.teacher].trim();
                 const teachers = teacherStr.split(',').map(t => t.trim());
                 const isExcluded = teachers.some(teacher => excludedStaff.includes(teacher));
-
-                if (isExcluded) {
-                    continue; 
-                }
-
+                if (isExcluded) continue;
                 const day = values[colIdx.day].trim();
                 const startTimeStr = values[colIdx.starttime].trim().padStart(4, '0');
                 const length = parseInt(values[colIdx.length], 10);
                 const subject = values[colIdx.subject].trim();
                 const room = values[colIdx.room].trim();
-                
-                // Skip lessons with D46 in the subject or room
-                if (subject.includes('D46') || room.includes('D46')) {
-                    continue;
-                }
-                
-                if (!validDays.includes(day) || !startTimeStr || length <= 0) {
-                    continue;
-                }
-
+                if (subject.includes('D46') || room.includes('D46')) continue;
+                if (!validDays.includes(day) || !startTimeStr || length <= 0) continue;
                 const startTime = timeToMinutes(startTimeStr);
                 const lessonData = {
                     subject: subject,
@@ -601,17 +305,12 @@
                     endTimeStr: minutesToTime(startTime + length),
                     validWeeks: parseWeekRanges(values[colIdx.realweeks])
                 };
-
                 const groups = values[colIdx.group].trim().split(',');
                 for (const g of groups) {
                     const trimmedGroup = g.trim();
                     if (trimmedGroup) {
                         const baseGroup = trimmedGroup.split(':')[0];
-                        lessons.push({ 
-                            ...lessonData, 
-                            group: trimmedGroup,
-                            baseGroup: baseGroup 
-                        });
+                        lessons.push({ ...lessonData, group: trimmedGroup, baseGroup: baseGroup });
                     }
                 }
             }
@@ -621,254 +320,131 @@
         function getLessonsForDay(baseClassName, nowDay, currentWeek) {
             const dayMap = ["", "Mon", "Tue", "Wed", "Thur", "Fri"];
             const currentDayStr = dayMap[nowDay];
-
-            if (!currentDayStr) {
-                return []; // Weekend
-            }
-
+            if (!currentDayStr) return [];
             const year = baseClassName.charAt(0);
-            const mainClassRegex = /^[4-9][A-Z]$/; 
-
+            const mainClassRegex = /^[4-9][A-Z]$/;
             const lessons = allLessons.filter(l => {
-                if (l.day !== currentDayStr || !l.validWeeks.includes(currentWeek)) {
-                    return false;
-                }
+                if (l.day !== currentDayStr || !l.validWeeks.includes(currentWeek)) return false;
                 const isForThisClass = l.baseGroup === baseClassName;
                 const isForThisYear = l.group.startsWith(year) && !mainClassRegex.test(l.baseGroup);
                 return (isForThisClass || isForThisYear);
             });
-            
             const uniqueLessons = [...new Map(lessons.map(l => [l.group + l.startTime, l])).values()];
             return uniqueLessons.sort((a, b) => a.startTime - b.startTime);
         }
 
         function getNowAndNext(todayLessons, nowMinutes) {
-            const nowLessons = todayLessons.filter(l => 
-                nowMinutes >= l.startTime && nowMinutes < l.endTime
-            );
-
+            const nowLessons = todayLessons.filter(l => nowMinutes >= l.startTime && nowMinutes < l.endTime);
             let nextLessons = [];
             let nextStartTime = Infinity;
-            let referenceTime = nowMinutes; 
-
+            let referenceTime = nowMinutes;
             if (nowLessons.length > 0) {
                 const nowEndTime = Math.max(...nowLessons.map(l => l.endTime));
-                referenceTime = nowEndTime - 1; 
+                referenceTime = nowEndTime - 1;
             }
-
             for (const lesson of todayLessons) {
-                if (lesson.startTime > referenceTime && lesson.startTime < nextStartTime) {
-                    nextStartTime = lesson.startTime;
-                }
+                if (lesson.startTime > referenceTime && lesson.startTime < nextStartTime) nextStartTime = lesson.startTime;
             }
-
-            if (nextStartTime !== Infinity) {
-                nextLessons = todayLessons.filter(l => l.startTime === nextStartTime);
-            }
-
+            if (nextStartTime !== Infinity) nextLessons = todayLessons.filter(l => l.startTime === nextStartTime);
             return { nowLessons, nextLessons };
         }
 
         function createEventBlockHTML(lessons, type) {
             const typeClass = type.toLowerCase();
             const typeLabel = type;
-
             if (!lessons || lessons.length === 0) {
                 const subject = (type === 'Now') ? 'Break / Lunch' : 'End of Day';
                 const details = (type === 'Now') ? 'No class scheduled' : 'No more classes scheduled';
-                return `
-                    <div class="event">
-                        <div class="event-type break">${typeLabel}</div>
-                        <div class="event-subject">${subject}</div>
-                        <div class="event-details">${details}</div>
-                    </div>`;
+                return `<div class="event"><div class="event-type break">${typeLabel}</div><div class="event-subject">${subject}</div><div class="event-details">${details}</div></div>`;
             }
-
-            const timeDetails = (type === 'Now') 
-                ? `Ends at ${lessons[0].endTimeStr}` 
-                : `Starts at ${lessons[0].startTimeStr}`;
-            
-            // Use 2-column layout if there are 3+ lessons
+            const timeDetails = (type === 'Now') ? `Ends at ${lessons[0].endTimeStr}` : `Starts at ${lessons[0].startTimeStr}`;
             const use2Columns = lessons.length >= 3;
             const columnClass = use2Columns ? 'event-lessons-grid' : 'event-lessons-single';
-            
             const lessonHtml = lessons.map(lesson => {
                 const location = lesson.room ? `(${lesson.room})` : '';
-                
-                const teachers = lesson.teacher.split(',')
-                                    .map(t => t.trim())
-                                    .filter(t => !excludedStaff.includes(t));
+                const teachers = lesson.teacher.split(',').map(t => t.trim()).filter(t => !excludedStaff.includes(t));
                 const teacher = teachers.join(', ');
-                
                 const mainClassRegex = /^[4-9][A-Z]$/;
                 let groupName = '';
                 if (lesson.group.includes(':')) {
                     groupName = `[${lesson.group.split(':')[1]}] `;
                 } else if (!mainClassRegex.test(lesson.baseGroup)) {
-                    groupName = `[${lesson.baseGroup.substring(1)}] `; 
+                    groupName = `[${lesson.baseGroup.substring(1)}] `;
                 }
-
-                return `
-                    <div class="event-item">
-                        <div class="event-subject">${groupName}${lesson.subject} ${location}</div>
-                        <div class="event-teacher">${teacher}</div>
-                    </div>
-                `;
+                return `<div class="event-item"><div class="event-subject">${groupName}${lesson.subject} ${location}</div><div class="event-teacher">${teacher}</div></div>`;
             }).join('');
-
-            return `
-                <div class="event">
-                    <div class="event-type ${typeClass}">${typeLabel}</div>
-                    <div class="${columnClass}">
-                        ${lessonHtml}
-                    </div>
-                    <div class="event-details">${timeDetails}</div>
-                </div>
-            `;
+            return `<div class="event"><div class="event-type ${typeClass}">${typeLabel}</div><div class="${columnClass}">${lessonHtml}</div><div class="event-details">${timeDetails}</div></div>`;
         }
 
         function calculateOptimalLayout(cardCount, classNames, nowDay, currentWeek, nowMinutes) {
             const container = document.getElementById('now-next-container');
             const containerWidth = container.offsetWidth;
             const containerHeight = container.offsetHeight;
-            
-            // Check if mobile
             const isMobile = window.innerWidth <= 768;
-            
             let cols, rows;
-            
-            if (isMobile) {
-                // Single column on mobile
-                cols = 1;
-                rows = cardCount;
-            } else if (cardCount <= 2) {
-                cols = cardCount;
-                rows = 1;
-            } else if (cardCount <= 4) {
-                cols = 2;
-                rows = Math.ceil(cardCount / 2);
-            } else if (cardCount <= 6) {
-                cols = 3;
-                rows = Math.ceil(cardCount / 3);
-            } else if (cardCount <= 12) {
-                cols = 4;
-                rows = Math.ceil(cardCount / 4);
-            } else {
-                cols = 4;
-                rows = 4;
-            }
-            
-            // Calculate gap in pixels
+            if (isMobile) { cols = 1; rows = cardCount; }
+            else if (cardCount <= 2) { cols = cardCount; rows = 1; }
+            else if (cardCount <= 4) { cols = 2; rows = Math.ceil(cardCount / 2); }
+            else if (cardCount <= 6) { cols = 3; rows = Math.ceil(cardCount / 3); }
+            else if (cardCount <= 12) { cols = 4; rows = Math.ceil(cardCount / 4); }
+            else { cols = 4; rows = 4; }
             const gap = isMobile ? window.innerHeight * 0.02 : window.innerHeight * 0.01;
-            
-            // Calculate card dimensions
             const cardWidth = (containerWidth - (gap * (cols - 1))) / cols;
             const availableCardHeight = isMobile ? 'auto' : (containerHeight - (gap * (rows - 1))) / rows;
-            
-            // On mobile, don't measure - just use auto height
             if (isMobile) {
                 return { cardWidth, cardHeight: 'auto', cols, rows, needsScaling: false, isMobile: true };
             }
-            
-            // Desktop: measure actual content heights needed for each card
             const tempContainer = document.createElement('div');
             tempContainer.style.position = 'absolute';
             tempContainer.style.visibility = 'hidden';
             tempContainer.style.width = cardWidth + 'px';
             document.body.appendChild(tempContainer);
-            
             let maxNeededHeight = 0;
-            const contentHeights = [];
-            
             for (const className of classNames) {
                 const todayLessons = getLessonsForDay(className, nowDay, currentWeek);
                 const { nowLessons, nextLessons } = getNowAndNext(todayLessons, nowMinutes);
-                
                 const tempCard = document.createElement('div');
                 tempCard.className = 'class-card';
                 tempCard.style.width = cardWidth + 'px';
-                
                 const totalLessons = (nowLessons?.length || 0) + (nextLessons?.length || 0);
-                if (totalLessons >= 8) {
-                    tempCard.classList.add('card-scale-xs');
-                } else if (totalLessons >= 6) {
-                    tempCard.classList.add('card-scale-sm');
-                } else if (totalLessons >= 4) {
-                    tempCard.classList.add('card-scale-md');
-                }
-                
-                tempCard.innerHTML = `
-                    <div class="class-header"><h2>${className}</h2></div>
-                    <div class="class-body">
-                        ${createEventBlockHTML(nowLessons, 'Now')}
-                        ${createEventBlockHTML(nextLessons, 'Next')}
-                    </div>
-                `;
-                
+                if (totalLessons >= 8) tempCard.classList.add('card-scale-xs');
+                else if (totalLessons >= 6) tempCard.classList.add('card-scale-sm');
+                else if (totalLessons >= 4) tempCard.classList.add('card-scale-md');
+                tempCard.innerHTML = `<div class="class-header"><h2>${className}</h2></div><div class="class-body">${createEventBlockHTML(nowLessons, 'Now')}${createEventBlockHTML(nextLessons, 'Next')}</div>`;
                 tempContainer.appendChild(tempCard);
                 const neededHeight = tempCard.scrollHeight;
-                contentHeights.push(neededHeight);
-                if (neededHeight > maxNeededHeight) {
-                    maxNeededHeight = neededHeight;
-                }
+                if (neededHeight > maxNeededHeight) maxNeededHeight = neededHeight;
                 tempContainer.removeChild(tempCard);
             }
-            
             document.body.removeChild(tempContainer);
-            
             let finalCardHeight = Math.min(availableCardHeight, maxNeededHeight);
             let needsScaling = maxNeededHeight > availableCardHeight;
-            
             return { cardWidth, cardHeight: finalCardHeight, cols, rows, needsScaling, maxNeededHeight, availableCardHeight, isMobile: false };
         }
 
         function updateDashboard() {
             if (allLessons.length === 0) return;
-
-            const viewParam = getURLParameter('view') || getURLParameter('sign') || 'all'; 
+            const viewParam = getURLParameter('view') || getURLParameter('sign') || 'all';
             const view = viewParam.toLowerCase();
-            
-            const allClassNames = [...new Set(allLessons.map(l => l.baseGroup))]
-                .filter(name => /^[4-9][A-Z]$/.test(name)) 
-                .sort();
-            
+            const allClassNames = [...new Set(allLessons.map(l => l.baseGroup))].filter(name => /^[4-9][A-Z]$/.test(name)).sort();
             let classNames = [];
-            
-            if (view === 'junior1') {
-                const list = ['4A', '4B', '5A', '5B'];
-                classNames = allClassNames.filter(name => list.includes(name));
-            } else if (view === 'junior2') {
-                const list = ['6A', '6B'];
-                classNames = allClassNames.filter(name => list.includes(name));
-            } else if (view === 'junior') {
-                const list = ['4A', '4B', '5A', '5B', '6A', '6B'];
-                classNames = allClassNames.filter(name => list.includes(name));
-            } else if (view === 'senior1') {
-                const list = ['7A', '7B', '7C', '8A', '8B'];
-                classNames = allClassNames.filter(name => list.includes(name));
-            } else if (view === 'senior2') {
-                const list = ['9A', '9B', '9C', '9D'];
-                classNames = allClassNames.filter(name => list.includes(name));
-            } else if (view === 'senior') {
-                const list = ['7A', '7B', '7C', '8A', '8B', '9A', '9B', '9C', '9D'];
-                classNames = allClassNames.filter(name => list.includes(name));
-            } else {
-                classNames = allClassNames; 
-            }
+            if (view === 'junior1') { const list = ['4A','4B','5A','5B']; classNames = allClassNames.filter(name=>list.includes(name)); }
+            else if (view === 'junior2') { const list = ['6A','6B']; classNames = allClassNames.filter(name=>list.includes(name)); }
+            else if (view === 'junior') { const list = ['4A','4B','5A','5B','6A','6B']; classNames = allClassNames.filter(name=>list.includes(name)); }
+            else if (view === 'senior1') { const list = ['7A','7B','7C','8A','8B']; classNames = allClassNames.filter(name=>list.includes(name)); }
+            else if (view === 'senior2') { const list = ['9A','9B','9C','9D']; classNames = allClassNames.filter(name=>list.includes(name)); }
+            else if (view === 'senior') { const list = ['7A','7B','7C','8A','8B','9A','9B','9C','9D']; classNames = allClassNames.filter(name=>list.includes(name)); }
+            else { classNames = allClassNames; }
 
             const nowNextContainer = document.getElementById('now-next-container');
-            nowNextContainer.innerHTML = ''; 
-            
+            nowNextContainer.innerHTML = '';
             const now = new Date(new Date().toLocaleString("en-US", {timeZone: "Europe/Stockholm"}));
-            const nowDay = now.getDay(); 
+            const nowDay = now.getDay();
             const nowMinutes = (now.getHours() * 60) + now.getMinutes();
-            const currentWeek = getWeekNumber(now); 
-
+            const currentWeek = getWeekNumber(now);
             const clockEl = document.getElementById('clock');
             const weekEl = document.getElementById('week-display');
-            
-            const dayNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-            
+            const dayNames = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
             clockEl.innerHTML = `${dayNames[nowDay]}, ${minutesToTime(nowMinutes)}`;
             weekEl.innerHTML = `Displaying Schedule for: Week ${currentWeek}`;
 
@@ -876,107 +452,65 @@
                 nowNextContainer.innerHTML = "<h2>It's the weekend.</h2>";
                 return;
             }
-
             if (classNames.length === 0) {
                 nowNextContainer.innerHTML = "<h2>No classes scheduled for this view.</h2>";
                 return;
             }
 
-            // Calculate optimal layout with actual content measurement
+            // Determine layout (JS uses <=768 to decide; CSS forces stack up to 900px)
             const layout = calculateOptimalLayout(classNames.length, classNames, nowDay, currentWeek, nowMinutes);
-            
-            // If content doesn't fit, add extra global scaling
-            if (layout.needsScaling) {
-                document.body.classList.add('force-compact');
-            } else {
-                document.body.classList.remove('force-compact');
-            }
-            
+
+            if (layout.needsScaling) document.body.classList.add('force-compact'); else document.body.classList.remove('force-compact');
+
             for (const className of classNames) {
                 const todayLessons = getLessonsForDay(className, nowDay, currentWeek);
                 const { nowLessons, nextLessons } = getNowAndNext(todayLessons, nowMinutes);
-                
                 const nowNextCard = document.createElement('div');
                 nowNextCard.className = 'class-card';
 
-                // On mobile allow CSS to control width (use 100%); on desktop set calculated pixel width
+                // JS-controlled width for desktop; CSS overrides for mobile up to 900px via !important
                 if (layout.isMobile) {
                     nowNextCard.style.width = '100%';
                     nowNextCard.style.maxWidth = '100%';
                 } else {
                     nowNextCard.style.width = `${layout.cardWidth}px`;
                 }
-                
-                // Set height based on mobile or desktop
-                if (layout.isMobile) {
-                    nowNextCard.style.height = 'auto';
-                } else {
-                    nowNextCard.style.height = `${layout.cardHeight}px`;
-                }
-                
-                // Calculate total number of lessons to determine scaling
+
+                if (layout.isMobile) nowNextCard.style.height = 'auto'; else nowNextCard.style.height = `${layout.cardHeight}px`;
+
                 const totalLessons = (nowLessons?.length || 0) + (nextLessons?.length || 0);
-                
-                // Add scaling class based on content density (not on mobile)
                 if (!layout.isMobile) {
-                    if (totalLessons >= 8) {
-                        nowNextCard.classList.add('card-scale-xs');
-                    } else if (totalLessons >= 6) {
-                        nowNextCard.classList.add('card-scale-sm');
-                    } else if (totalLessons >= 4) {
-                        nowNextCard.classList.add('card-scale-md');
-                    }
+                    if (totalLessons >= 8) nowNextCard.classList.add('card-scale-xs');
+                    else if (totalLessons >= 6) nowNextCard.classList.add('card-scale-sm');
+                    else if (totalLessons >= 4) nowNextCard.classList.add('card-scale-md');
                 }
-                
-                nowNextCard.innerHTML = `
-                    <div class="class-header"><h2>${className}</h2></div>
-                    <div class="class-body">
-                        ${createEventBlockHTML(nowLessons, 'Now')}
-                        ${createEventBlockHTML(nextLessons, 'Next')}
-                    </div>
-                `;
+
+                nowNextCard.innerHTML = `<div class="class-header"><h2>${className}</h2></div><div class="class-body">${createEventBlockHTML(nowLessons,'Now')}${createEventBlockHTML(nextLessons,'Next')}</div>`;
                 nowNextContainer.appendChild(nowNextCard);
             }
         }
 
         async function loadDataAndRun() {
             try {
-                const response = await fetch('Lessons.tsv?cachebust=' + new Date().getTime(), {
-                    cache: 'no-store'
-                });
-                
-                if (!response.ok) {
-                    throw new Error(`Failed to load Lessons.tsv (Status: ${response.status})`);
-                }
-
+                const response = await fetch('Lessons.tsv?cachebust=' + new Date().getTime(), { cache: 'no-store' });
+                if (!response.ok) throw new Error(`Failed to load Lessons.tsv (Status: ${response.status})`);
                 const buffer = await response.arrayBuffer();
                 const tsvData = new TextDecoder('utf-8').decode(buffer);
-                
-                allLessons = parseLessons(tsvData); 
-                
-                if (allLessons.length === 0) {
-                    throw new Error("Could not parse any lessons from the data file.");
-                }
-                
-                updateDashboard(); 
-                setInterval(updateDashboard, 30000); 
-
+                allLessons = parseLessons(tsvData);
+                if (allLessons.length === 0) throw new Error("Could not parse any lessons from the data file.");
+                updateDashboard();
+                setInterval(updateDashboard, 30000);
             } catch (error) {
                 console.error(error);
                 const container = document.getElementById('now-next-container');
-                container.innerHTML = `
-                    <h2 style="color: red;">Error: Could not load schedule.</h2>
-                    <p>${error.message}</p>
-                    <p>Please make sure the <b>Lessons.tsv</b> file is uploaded to the same project and is public.</p>`;
+                container.innerHTML = `<h2 style="color: red;">Error: Could not load schedule.</h2><p>${error.message}</p><p>Please make sure the <b>Lessons.tsv</b> file is uploaded to the same project and is public.</p>`;
             }
         }
 
-        // Handle window resize
         window.addEventListener('resize', updateDashboard);
         window.addEventListener('orientationchange', updateDashboard);
 
-        loadDataAndRun(); 
-
+        loadDataAndRun();
     </script>
 </body>
 </html>
