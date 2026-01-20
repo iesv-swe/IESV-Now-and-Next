@@ -343,6 +343,11 @@
         
         /* Mobile responsive adjustments */
         @media (max-width: 768px) {
+            /* Allow page scrolling on mobile devices */
+            html, body {
+                overflow: auto;
+            }
+
             body {
                 padding: 0.5vh;
             }
@@ -375,7 +380,7 @@
                 font-size: 1rem;
             }
             
-            /* Force vertical stacking of cards */
+            /* Force vertical stacking of cards on mobile */
             #now-next-container {
                 display: flex;
                 flex-direction: column;
@@ -383,8 +388,10 @@
                 width: 100%;
             }
             
+            /* Ensure cards fill available width on small screens */
             .class-card {
                 width: 100% !important;
+                max-width: 100% !important;
                 height: auto !important;
                 min-height: 0;
             }
@@ -392,7 +399,7 @@
             .class-body {
                 padding: 1.5vh;
                 gap: 1.5vh;
-                grid-template-columns: 1fr 1fr;
+                grid-template-columns: 1fr 1fr; /* keep two columns on larger phones/tablets unless very narrow */
             }
             
             .class-header h2 {
@@ -413,6 +420,7 @@
             }
         }
         
+        /* Very narrow phones: stack inner event columns */
         @media (max-width: 480px) {
             h1 {
                 font-size: 1.5rem;
@@ -441,6 +449,11 @@
             
             .event-type {
                 font-size: 0.7rem;
+            }
+
+            /* Single column inside each card to avoid cramped two-column inner layout */
+            .class-body {
+                grid-template-columns: 1fr;
             }
         }
     </style>
@@ -885,7 +898,14 @@
                 
                 const nowNextCard = document.createElement('div');
                 nowNextCard.className = 'class-card';
-                nowNextCard.style.width = `${layout.cardWidth}px`;
+
+                // On mobile allow CSS to control width (use 100%); on desktop set calculated pixel width
+                if (layout.isMobile) {
+                    nowNextCard.style.width = '100%';
+                    nowNextCard.style.maxWidth = '100%';
+                } else {
+                    nowNextCard.style.width = `${layout.cardWidth}px`;
+                }
                 
                 // Set height based on mobile or desktop
                 if (layout.isMobile) {
@@ -953,6 +973,7 @@
 
         // Handle window resize
         window.addEventListener('resize', updateDashboard);
+        window.addEventListener('orientationchange', updateDashboard);
 
         loadDataAndRun(); 
 
