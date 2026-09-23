@@ -12,18 +12,20 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3559278	Arbetstid	Mon	0730	510	BaSh			Ht,Vt				0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3580383	Arbetstid	Mon	0730	540	GaHe			Ht,Vt				0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3581515	Arbetstid	Mon	0730	540	AlCh			Ht,Vt				0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3292277	Arbetstid	Mon	0745	435	AvdM							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3593706	Arbetstid	Mon	0730	540	HeKa			Ht,Vt				0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3593715	Arbetstid	Mon	0730	540	JonLeh			Ht,Vt				0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292282	Arbetstid	Mon	0745	360	BjJo							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292291	Arbetstid	Mon	0745	500	CaSk							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292341	Arbetstid	Mon	0745	470	JaOm							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292390	Arbetstid	Mon	0745	405	KaMa							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292431	Arbetstid	Mon	0745	475	TrPl							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3581503	Arbetstid	Mon	0745	420	MatOhl			Ht,Vt				0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3593735	Arbetstid	Mon	0745	510	JeHe			Ht,Vt				0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3291983	Arbetstid	Mon	0750	460	GiPr							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292002	Arbetstid	Mon	0750	450	AlWe							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292012	Arbetstid	Mon	0750	405	MeAb							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292273	Arbetstid	Mon	0750	480	AnPe							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3292294	Arbetstid	Mon	0750	440	ChLa							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3292294	Arbetstid	Mon	0750	450	ChLa							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292302	Arbetstid	Mon	0750	470	ChPl							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292307	Arbetstid	Mon	0750	450	DaCa							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292314	Arbetstid	Mon	0750	510	EmLa							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
@@ -40,6 +42,7 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3292634	Arbetstid	Mon	0750	305	LoGl							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292679	Arbetstid	Mon	0750	430	LilCor							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3431892	Arbetstid	Mon	0750	385	MaMe							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3292277	Arbetstid	Mon	0755	450	AvdM							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292380	Arbetstid	Mon	0755	450	MaBe							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292381	Arbetstid	Mon	0755	465	MaEn							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292384	Arbetstid	Mon	0755	470	OlGo							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
@@ -53,8 +56,10 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3578639	Arbetstid	Mon	0800	450	LinRau							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3579332	Arbetstid	Mon	0800	510	RoDi			Ht,Vt				0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3584952	Arbetstid	Mon	0800	390	AnnBro			Ht,Vt				0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3586116	In Service day / Studiedag	Mon	0800	510		4A,5A,5B,6A,6A:Support,6B,7A,7B,8A,8A:Support,8B,8C,9A,9B,9B:Support AW,9B:Support DWT,9C				40		0	40	
 3588249	Student Support	Mon	0800	270	JohFra,LinRau	8C: Support	B29					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3593726	Arbetstid	Mon	0800	510	HaLu			Ht,Vt				0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3593727	Arbetstid	Mon	0800	510	HaLu			Ht,Vt				0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3604894	Student Parent Meetings	Mon	0800	540		4A,5A,5B,6A,6A:Support,6B,7A,7B,8A,8A:Support,8B,8C,9A,9B,9B:Support AW,9B:Support DWT,9C				40		0	40	
 3559304	Arbetstid	Mon	0830	510	LaCo			Ht,Vt				0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3562352	Student Support	Mon	0830	195	JohFra,LinRau	6A:Support	B29					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3578240	Arbetstid	Mon	0830	390	JohFra							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
@@ -66,6 +71,7 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3566502	Reception	Mon	0900	120	DiHe							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3567337	Student Lounge	Mon	0900	90	AnnFel		Student Lounge					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3291866	Changing Time	Mon	0905	5	OlGo	7B	Changing Room					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3594897	Jr. Pickup	Mon	0905	10	MatWik		Outside Junior					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3291649	IDH	Mon	0910	50	OlGo	7B	B24,Outside	Uv				0	35, 37, 39, 41, 45, 47, 49, 51, 3, 5, 7, 15, 17, 19, 21, 23	
 3291691	Mobile Collection	Mon	0910	15	AsRo	9A,9C						0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3291732	IDH	Mon	0910	50	OlGo	7B	Gym Hall	Jv				0	34, 36, 38, 40, 42, 46, 48, 50, 4, 6, 8, 10, 12, 14, 16, 18, 22	
@@ -73,15 +79,18 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3291753	SV	Mon	0910	55	MiJä	8SV1	B25					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3291754	SVA	Mon	0910	55	EmLa	8SVA2	C30					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3291755	SVA	Mon	0910	55	LiJä	8SVA1	B22					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3291793	Mentor Time	Mon	0910	30	LoGl,GiPr	5B	D41					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3291793	Mentor Time	Mon	0910	30	LoGl,GiPr	5B	D41				40	0	34-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3291864	MA	Mon	0910	50	JaOm	7A	A13					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292081	MA	Mon	0910	55	RyHa	9B	A15					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292392	SV	Mon	0910	55	JoEn	8SV2	B23					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3588933	On Call Substitution	Mon	0910	60	MaBe							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3292084	Mentor Time	Mon	0915	30	KaMa,ChPl	5A	D40					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3292152	EN	Mon	0915	60	MatWik	6B	D43					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3292084	Mentor Time	Mon	0915	30	KaMa,ChPl	5A	D40				40	0	34-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3292152	EN	Mon	0915	60	MatWik	6B	D43				40	0	34-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292190	SO	Mon	0915	45	PhGh	4A	D45				34, 40	0	35-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3292251	MA	Mon	0915	60	LSt	6A	D42					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3292251	MA	Mon	0915	60	LSt	6A	D42				40	0	34-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3602208	MVP	Mon	0915	60	MaEn,HeKa	6A	D42			41		0	41	
+3602210	MVP	Mon	0915	60	MaEn,HeKa	6A	D42			43		0	43	
+3602221	MVP	Mon	0915	60	MaEn,HeKa	6B	C39			46		0	46	
 3292255	HoY Time	Mon	0920	30	CaSk							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3581727	Team Teaching	Mon	0920	40	AnPe	7A						0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292120	SO	Mon	0925	60	BjJo	9A	C33					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
@@ -89,9 +98,9 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3292513	Rast	Mon	0930	30	FaCa							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292617	Rast	Mon	0930	30	MeAb							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3562345	Student Support	Mon	0930	120	AvdM	8A:Support	B26					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3291792	BL	Mon	0945	60	LoGl	5B:2	D47					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3291933	MA	Mon	0945	60	TrPl	5A	D40					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3292556	MU	Mon	0945	60	AlWe	5B:1	Music					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3291792	BL	Mon	0945	60	LoGl	5B:2	D47				40	0	34-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3291933	MA	Mon	0945	60	TrPl	5A	D40				40	0	34-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3292556	MU	Mon	0945	60	AlWe	5B:1	Music				40	0	34-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292594	Rast	Mon	0950	30	ChPl							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292497	Rast	Mon	0955	30	DaCa							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292539	Rast	Mon	0955	30	JeHe							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
@@ -107,10 +116,10 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3292082	SO	Mon	1015	60	EmLa	7B	C30					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292153	MA	Mon	1015	60	RyHa	8B	A15					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292159	EN	Mon	1015	60	MeAb	8C	C38					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3292164	Mentor Time	Mon	1015	30	MaEn,LSt	6B	D43					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3292164	Mentor Time	Mon	1015	30	MaEn,LSt	6B					40	0	34-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292452	Rast	Mon	1015	30	AnHo							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292459	Rast	Mon	1015	30	AnPe							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3292492	Mentor Time	Mon	1015	30	FaCa,PhGh	6A	D42					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3292492	Mentor Time	Mon	1015	30	FaCa,PhGh	6A	D42				40	0	34-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292569	IDH	Mon	1015	50	OlGo	7A	B24,Outside	Uv				0	35, 37, 39, 41, 45, 47, 49, 51, 3, 5, 7, 15, 17, 19, 21, 23	
 3292600	NO	Mon	1015	60	NaAf	8A	A17					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292623	Rast	Mon	1015	30	MiJä							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
@@ -127,7 +136,7 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3292117	SO	Mon	1035	60	BjJo	9C	C33					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292562	Rast	Mon	1035	30	JoGe							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3291842	Rast	Mon	1045	30	AlWe							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3292416	Lunch	Mon	1045	25	HayAlj,MaBe,FaCa,TrPl,AlCh,RoDi,MaEn,PhGh,LoGl,ChPl,GiPr,CaSk,LSt	4A,5A,5B,6A,6B	Big Lunch Room				40	0	34-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3292416	Lunch	Mon	1045	25	HayAlj,MaBe,FaCa,TrPl,AlCh,RoDi,MaEn,PhGh,LoGl,KaMa,ChPl,GiPr,CaSk,LSt	4A,5A,5B,6A,6B	Big Lunch Room				40	0	34-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292671	HoY Time	Mon	1045	30	AnPe							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292493	Rast	Mon	1055	30	ErWi							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3359099	Break Duty Junior	Mon	1100	25	TrPl		Outside Junior			34-43, 45-51, 3-8, 10-12, 14-19, 21-23		0	34-43, 45-51, 3-8, 10-12, 14-19, 21-23	
@@ -136,10 +145,10 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3291645	Changing Time	Mon	1105	10	OlGo	7A	Changing Room					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292200	Rast	Mon	1105	30	ChLa							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3359100	Break Duty Junior	Mon	1105	25	JaOm		Outside Junior			34-43, 45-51, 3-8, 10-12, 14-19, 21-23		0	34-43, 45-51, 3-8, 10-12, 14-19, 21-23	
-3291811	Break Junior	Mon	1110	20		6B	Outside Senior,Student Lounge					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3291926	Break Junior	Mon	1110	35		5A,5B	Outside Junior					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3291811	Break Junior	Mon	1110	20		6B	Outside Senior,Student Lounge				40	0	34-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3291926	Break Junior	Mon	1110	35		5A,5B	Outside Junior				40	0	34-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292036	Year 6 Activity Time	Mon	1110	35	OlGo		Gym Hall					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3292649	Break Junior	Mon	1110	35	OlGo	6A	Gym Hall					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3292649	Break Junior	Mon	1110	35	OlGo	6A	Gym Hall				40	0	34-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3297028	Break Junior	Mon	1110	30		4A	Outside Junior			34-43, 45-51, 3-8, 10-12, 14-19, 21-23	40	0	34-39, 41-43, 45-51, 3-8, 10-12, 14-19, 21-23	
 3359214	Break Duty Junior	Mon	1110	20	LoGl		Outside Junior			34-43, 45-51, 3-8, 10-12, 14-19, 21-23		0	34-43, 45-51, 3-8, 10-12, 14-19, 21-23	
 3291710	Lunch	Mon	1115	20	NaAf,JoGe,LiJä,MiJä,AnPe,AsRo	8A,8B,8C	Big Lunch Room					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
@@ -155,8 +164,8 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3291958	SLTM	Mon	1130	70	FaCa	6B:1	Wood Craft	Vt				0	3-8, 10, 12, 14-19, 21-23	
 3291961	SLTX	Mon	1130	70	KaMa	6B:2	Textiles	Vt				0	3-8, 10, 12, 14-19, 21-23	
 3292464	Rast	Mon	1130	30	AvdM							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3292511	SLTX	Mon	1130	70	KaMa	6B:1	Textiles	Ht				0	34-43, 45-51	
-3292565	SLTM	Mon	1130	70	FaCa	6B:2	Wood Craft	Ht				0	34-43, 45-51	
+3292511	SLTX	Mon	1130	70	KaMa	6B:1	Textiles	Ht			40	0	34-39, 41-43, 45-51	
+3292565	SLTM	Mon	1130	70	FaCa	6B:2	Wood Craft	Ht			40	0	34-39, 41-43, 45-51	
 3559246	Rast	Mon	1130	30	TiLe			Ht,Vt				0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3562384	Lunch	Mon	1130	30		9B:Support DWT						0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3566511	Rast	Mon	1130	30	DiHe							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
@@ -164,21 +173,25 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3292216	Break Senior	Mon	1135	20		7A,7B	Outside Senior,Student Lounge					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3567344	Student Lounge	Mon	1135	85	AnnFel		Student Lounge					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3567359	Support Session Maths	Mon	1135	20	AnPe		B24					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3594894	Jr. Pickup	Mon	1135	10	MeAb		Outside Junior					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3291976	SVA	Mon	1140	60	HayAlj	4SVA	D45				34, 40	0	35-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3292389	Prep Class	Mon	1140	60	ChLa	4Prep	B29				34	0	35-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3292389	Prep Class	Mon	1140	60	ChLa	4Prep	B29				34, 40	0	35-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292484	SV	Mon	1140	60	CaSk	4SV	D44				34, 40	0	35-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292486	Lunch	Mon	1140	20	LilCor,JoEn,MaFu,DaCa,JaOm	9A,9B,9C	Big Lunch Room					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292639	HoD Time	Mon	1140	60	ErWi							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3395970	Break Duty Senior	Mon	1140	20	AsRo		Outside Senior					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3397515	Break Duty Senior	Mon	1140	20	JoGe							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3546862	Mentor Day	Mon	1140	50	HayAlj,CaSk,AlWe	4A	D45			34		0	34	
-3291791	EN	Mon	1145	60	MeAb	6A	D42					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3291804	BL	Mon	1145	60	LoGl	5A:2	D47					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3292230	MU	Mon	1145	60	AlWe	5A:1	Music					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3292334	Changing Time	Mon	1145	5	ChPl	5B	Changing Room					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3291791	EN	Mon	1145	60	MeAb	6A	D42				40	0	34-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3291804	BL	Mon	1145	60	LoGl	5A:2	D47				40	0	34-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3292230	MU	Mon	1145	60	AlWe	5A:1	Music				40	0	34-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3292334	Changing Time	Mon	1145	5	ChPl	5B	Changing Room				40	0	34-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292465	Rast	Mon	1145	30	BjJo							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292628	Rast	Mon	1145	30	NaAf							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3292057	IDH	Mon	1150	50	ChPl	5B	Gym Hall					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3602203	MVP	Mon	1145	60	MaEn,HeKa	6A	C38			39		0	39	
+3602209	MVP	Mon	1145	60	MaEn,HeKa	6A	C38			42		0	42	
+3602211	MVP	Mon	1145	60	MaEn,HeKa	6A	C38			46		0	46	
+3292057	IDH	Mon	1150	50	ChPl	5B	Gym Hall				40	0	34-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292601	Rast	Mon	1150	30	MaBe							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292666	Rast	Mon	1150	30	TrPl							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3291725	Team Teaching	Mon	1155	60	OlGo							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
@@ -204,24 +217,24 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3291920	NO	Mon	1220	60	JoGe	9A	A19					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292193	SO	Mon	1220	60	BjJo	9B	C33					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292323	MA	Mon	1220	55	JaOm	9C	A13					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3576988	Student Support	Mon	1220	60	AvdM							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3576988	Student Support	Mon	1220	55	AvdM							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292701	Lab Time	Mon	1230	30	NaAf							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3562362	Student Support	Mon	1230	60	JohFra,LinRau	9B:Support DWT	B29					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3589001	On Call Substitution	Mon	1230	60	TrPl							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3291963	Changing Time	Mon	1240	5	ChPl	5B	Changing Room					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3291963	Changing Time	Mon	1240	5	ChPl	5B	Changing Room				40	0	34-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3291909	Changing Time	Mon	1245	5	ChPl	4A	Changing Room				34, 40	0	35-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3292079	MA	Mon	1245	60	LSt	6B	D43					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3292079	MA	Mon	1245	60	LSt	6B	D43				40	0	34-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3588942	On Call Substitution	Mon	1245	60	LilCor							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3291767	Prep Class	Mon	1250	60	MaFu	5Prep	B29					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3291767	Prep Class	Mon	1250	60	MaFu	5Prep	B29				40	0	34-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3291774	HoY Time	Mon	1250	60	ChLa							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3291978	SV	Mon	1250	60	CaSk	5SV1	D44					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3291979	SVA	Mon	1250	60	HayAlj	5SVA1	D40					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3291978	SV	Mon	1250	60	CaSk	5SV1	D44				40	0	34-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3291979	SVA	Mon	1250	60	HayAlj	5SVA1	D40				40	0	34-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292011	SLTX	Mon	1250	70	KaMa	6A:2	Textiles	Vt				0	3-8, 10, 12, 14-19, 21-23	
-3292098	SVA	Mon	1250	60	LiJä	5SVA2	D41					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3292098	SVA	Mon	1250	60	LiJä	5SVA2	D41				40	0	34-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292206	SLTM	Mon	1250	70	FaCa	6A:1	Wood Craft	Vt				0	3-8, 10, 12, 14-19, 21-23	
-3292478	SLTX	Mon	1250	70	KaMa	6A:1	Textiles	Ht				0	34-43, 45-51	
+3292478	SLTX	Mon	1250	70	KaMa	6A:1	Textiles	Ht			40	0	34-39, 41-43, 45-51	
 3292545	IDH	Mon	1250	45	ChPl	4A	Gym Hall				34, 40	0	35-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3292736	SLTM	Mon	1250	70	FaCa	6A:2	Wood Craft	Ht				0	34-43, 45-51	
+3292736	SLTM	Mon	1250	70	FaCa	6A:2	Wood Craft	Ht			40	0	34-39, 41-43, 45-51	
 3397534	Break Duty Senior	Mon	1255	30	DaCa							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3291714	Planning Time	Mon	1300	45	JoEn,AlWe							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292046	Rast	Mon	1300	30	OlGo							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
@@ -230,6 +243,7 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3292310	Rast	Mon	1305	30	EmLa							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292312	MA	Mon	1305	55	RyHa	8C	A15					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292622	SO	Mon	1305	60	MiJä	8B	C32					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3604930	Student Support	Mon	1305	60	AvdM							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3291857	MU	Mon	1310	60	MaBe	8A:1	Music					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3291858	NO Lab	Mon	1310	60	NaAf	8A:2	A14					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3397536	Break Duty Corridors	Mon	1320	25	MatWik							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
@@ -248,13 +262,14 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3292032	IDH	Mon	1340	100	AnPe	9C	Gym Hall	Uv				0	35, 37, 39, 41, 45, 47, 49, 51, 3, 5, 7, 15, 17, 19, 21, 23	
 3292034	IDH	Mon	1340	100	OlGo	9A	B24,Outside	Uv				0	35, 37, 39, 41, 45, 47, 49, 51, 3, 5, 7, 15, 17, 19, 21, 23	
 3292704	HoY Time	Mon	1345	70	EmLa							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3589020	Break Junior	Mon	1345	15		6B	Outside Senior					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3589020	Break Junior	Mon	1345	15		6B	Outside Senior				40	0	34-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3593689	Break Duty Junior	Mon	1345	15	JoGe		Outside Junior					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3291987	HoY Time	Mon	1355	60	ChLa							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3291775	SVA	Mon	1400	45	HayAlj	6SVA1	D42					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3291776	SVA	Mon	1400	45	LiJä	6SVA2	D43					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3292041	SV	Mon	1400	45	CaSk	6SV1	D44					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3291775	SVA	Mon	1400	45	HayAlj	6SVA1	D42				40	0	34-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3291776	SVA	Mon	1400	45	LiJä	6SVA2	D43				40	0	34-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3292041	SV	Mon	1400	45	CaSk	6SV1	D44				40	0	34-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292481	EHT Meeting	Mon	1400	120	ChBe,KrEr,JeHe,GaHe,AnHo,HeKa,AsRo,JeSe,DaWr							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3292483	Prep Class	Mon	1400	45	LilCor	6Prep	B29					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3292483	Prep Class	Mon	1400	45	LilCor	6Prep	B29				40	0	34-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292661	HoY Time	Mon	1400	60	TrPl							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3582230	Team Teaching	Mon	1400	60	JoEn		D42,D43					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3291644	Mobile Return	Mon	1405	15	AsRo	7A						0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
@@ -262,13 +277,14 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3291729	M2SP	Mon	1410	60	DaCa	8SpC	C34					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292049	B-support	Mon	1410	60	AlWe	8EnSv2	B25					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3291856	NO	Mon	1415	60	JoGe	8B	A19					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3604932	Student Support	Mon	1415	60	AvdM							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292246	NO Lab	Mon	1420	60	NaAf	8A:1	A14					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292645	MU	Mon	1420	60	MaBe	8A:2	Music					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3291657	Mobile Return	Mon	1425	15	AsRo	7B						0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292676	Support Session - Science	Mon	1430	60	ChPl		A12					0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292708	Planning Time	Mon	1430	60	RyHa,JaOm							0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3591513	Junior Club	Mon	1430	60	AnnFel					34-43, 45-51, 3-8, 10, 12, 14-19, 21-23		0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
-3291861	Support Session - Maths/Science	Mon	1450	40	LSt	6A,6B						0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3291861	Support Session - Maths/Science	Mon	1450	40	LSt	6A,6B					40	0	34-39, 41-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3291665	Mobile Return	Mon	1510	15	AsRo	8C						0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292259	Mobile Return	Mon	1515	15	AsRo	8B						0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3291670	Mobile Return	Mon	1520	15	AsRo	8A,9B						0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
@@ -293,8 +309,11 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3559292	Arbetstid	Tue	0730	510	BaSh			Ht,Vt				0	34-43, 45-51, 3-8, 10-12, 14-23	
 3580385	Arbetstid	Tue	0730	540	GaHe			Ht,Vt				0	34-43, 45-51, 3-8, 10-12, 14-23	
 3581519	Arbetstid	Tue	0730	510	AlCh			Ht,Vt				0	34-43, 45-51, 3-8, 10-12, 14-23	
+3593709	Arbetstid	Tue	0730	510	HeKa			Ht,Vt				0	34-43, 45-51, 3-8, 10-12, 14-23	
+3593717	Arbetstid	Tue	0730	510	JonLeh			Ht,Vt				0	34-43, 45-51, 3-8, 10-12, 14-23	
 3292281	Support Session - Social Science	Tue	0735	45	BjJo		C33					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3291660	Mobile Collection	Tue	0745	15	AsRo	8A,8B,8C,9B						0	34-43, 45-51, 2-8, 10-12, 14-23	
+3292402	Arbetstid	Tue	0745	525	ChLa							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292415	Arbetstid	Tue	0745	480	OlGo							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292432	Arbetstid	Tue	0745	460	TrPl							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292469	Arbetstid	Tue	0745	510	CaSk							0	34-43, 45-51, 2-8, 10-12, 14-23	
@@ -320,9 +339,9 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3292284	Arbetstid	Tue	0800	440	LSt							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292308	Arbetstid	Tue	0800	515	EmLa							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292393	Arbetstid	Tue	0800	465	MatWik							0	34-43, 45-51, 2-8, 10-12, 14-23	
-3292402	Arbetstid	Tue	0800	510	ChLa							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292437	Arbetstid	Tue	0800	460	ErWi							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292453	Arbetstid	Tue	0800	510	AnHo							0	34-43, 45-51, 2-8, 10-12, 14-23	
+3292686	Planning Time	Tue	0800	45	HayAlj,LiJä							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3562232	Arbetstid	Tue	0800	390	RahHan							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3576720	Arbetstid	Tue	0800	400	LePa							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3578640	Arbetstid	Tue	0800	510	LinRau							0	34-43, 45-51, 2-8, 10-12, 14-23	
@@ -333,6 +352,8 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3586089	Mobile Collection	Tue	0800	60	BaSh					34-43, 45-51, 3-8, 10, 12, 14-19, 21-23		0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3588250	Student Support	Tue	0800	270	JohFra,LinRau	8C: Support	B29					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3588931	On Call Substitution	Tue	0800	60	NaAf							0	34-43, 45-51, 2-8, 10-12, 14-23	
+3593729	Arbetstid	Tue	0800	510	HaLu			Ht,Vt				0	34-43, 45-51, 3-8, 10-12, 14-23	
+3593739	Arbetstid	Tue	0800	510	JeHe			Ht,Vt				0	34-43, 45-51, 3-8, 10-12, 14-23	
 3292138	EN	Tue	0805	55	MeAb	9B	C38					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292194	IDH	Tue	0805	45	ChPl	5B	Gym Hall					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292264	SO	Tue	0805	60	MiJä	8C	C32					0	34-43, 45-51, 2-8, 10-12, 14-23	
@@ -340,7 +361,6 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3292531	Arbetstid	Tue	0805	385	JaOm							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3291698	MA	Tue	0815	60	JaOm	9A	A13					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292015	NO	Tue	0815	60	JoGe	9C	A19					0	34-43, 45-51, 2-8, 10-12, 14-23	
-3292686	Planning Time	Tue	0815	45	HayAlj,LiJä							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3546863	Mentor Day	Tue	0815	150	HayAlj,CaSk,AlWe	4A	D45			34		0	34	
 3576989	Student Support	Tue	0815	60	AvdM							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292494	Arbetstid	Tue	0830	425	LilCor							0	34-43, 45-51, 2-8, 10-12, 14-23	
@@ -350,6 +370,7 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3583876	Phones Turned In	Tue	0830	5	DaWr		Gym Hall			35-43, 45-51, 3-8, 10-12, 14-19, 21-23		0	35-43, 45-51, 3-8, 10-12, 14-19, 21-23	
 3292177	SO	Tue	0845	60	PhGh	6A	D42					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292260	NO	Tue	0845	60	LSt	6B	D43					0	34-43, 45-51, 2-8, 10-12, 14-23	
+3602220	MVP	Tue	0845	60	MaEn,HeKa	6B	D43			45		0	45	
 3292027	Mobile Collection	Tue	0850	15	AsRo	7A,7B						0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292055	Changing Time	Tue	0850	10	AnPe	5B	Changing Room					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3397513	Break Duty Senior	Tue	0850	20	KaMa		Aesthetics Corridor					0	34-43, 45-51, 2-8, 10-12, 14-23	
@@ -366,6 +387,7 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3566491	Arbetstid	Tue	0900	510	DiHe							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3566504	Reception	Tue	0900	120	DiHe							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3567338	Student Lounge	Tue	0900	90	AnnFel		Student Lounge					0	34-43, 45-51, 2-8, 10-12, 14-23	
+3588992	On Call Substitution	Tue	0900	60	LiJä							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292078	NO	Tue	0905	60	ChPl	7A	A12					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292129	EN	Tue	0905	60	MatWik	7B	C39					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3291746	BL	Tue	0910	120	GiPr	8B:2	Art	Vt				0	3-8, 10-12, 14-23	
@@ -396,6 +418,7 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3581728	Team Teaching	Tue	0935	45	AnPe	9B						0	34-43, 45-51, 2-8, 10-12, 14-23	
 3291993	SO	Tue	0945	60	PhGh	6B	D43					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292250	MA	Tue	0945	60	LSt	6A	D42					0	34-43, 45-51, 2-8, 10-12, 14-23	
+3602222	MVP	Tue	0945	60	JeHe,HeKa	6B	D43			47		0	47	
 3292535	Rast	Tue	0955	30	JeHe							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3291763	SVA	Tue	1000	45	LiJä	5SVA2	D41					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3291799	SV	Tue	1000	45	CaSk	5SV1	D44					0	34-43, 45-51, 2-8, 10-12, 14-23	
@@ -447,6 +470,7 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3567355	Student Lounge	Tue	1115	25	RoDi		Student Lounge					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3359147	Break Duty Junior	Tue	1120	30	HayAlj		Outside Junior			34-43, 45-51, 3-8, 10-12, 14-19, 21-23		0	34-43, 45-51, 3-8, 10-12, 14-19, 21-23	
 3559267	Rast	Tue	1120	30	TaSc			Ht,Vt				0	34-43, 45-51, 3-8, 10-12, 14-23	
+3594946	Jr. Pickup	Tue	1120	10	MatWik		Outside Junior					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292461	Rast	Tue	1130	30	AvdM							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292522	EN	Tue	1130	50	MatWik	6B	D43					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292624	Rast	Tue	1130	30	NaAf							0	34-43, 45-51, 2-8, 10-12, 14-23	
@@ -462,7 +486,7 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3292201	SLTX	Tue	1140	60	KaMa	4a:1	Textiles	Ht			34	0	35-43, 45-51	
 3292207	SLTM	Tue	1140	60	FaCa	4A:2	Wood Craft	Ht			34	0	35-43, 45-51	
 3292223	SLTM	Tue	1140	60	FaCa	4a:1	Wood Craft	Vt				0	3-8, 10-12, 14-23	
-3292286	HoD Meeting	Tue	1140	60	JoEn,JoGe,PhGh,OlGo,JaOm,GiPr,AsRo,ErWi		A11					0	34-36, 38-41, 43, 45-46, 48-51, 2-8, 10-12, 14-23	
+3292286	HoD Meeting	Tue	1140	60	JoEn,JoGe,PhGh,OlGo,JaOm,GiPr,AsRo,ErWi		A14,A19					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292574	Rast	Tue	1140	30	LiJä							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292726	HoY Meeting	Tue	1140	60	TrPl,JeHe,AnHo,ChLa,EmLa,AnPe,CaSk,DaWr		A12					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3397557	Break Duty Senior	Tue	1140	40	RoDi,JonLeh		Outside Senior					0	34-43, 45-51, 2-8, 10-12, 14-23	
@@ -580,6 +604,7 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3292681	Support Session - SO/Swedish	Tue	1530	60	EmLa		B24					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3577004	Department Meeting	Tue	1530	60	ChBe,JohFra,AnHo,LinRau,AvdM							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292690	Support Session - Swedish	Tue	1535	60	JoEn		B23					0	34-43, 45-51, 2-8, 10-12, 14-23	
+3604723	Ms Conklin Football	Tue	1715	105	LaCo		Gym Hall			48-53, 1-12		0	48-53, 1-12	
 3559231	Arbetstid	Wed	0700	510	SeCa							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3559243	Arbetstid	Wed	0700	510	TiLe			Ht,Vt				0	34-43, 45-51, 2-8, 10-12, 14-23	
 3559255	Arbetstid	Wed	0700	510	TaSc			Ht,Vt				0	34-43, 45-51, 2-8, 10-12, 14-23	
@@ -591,9 +616,9 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3559293	Arbetstid	Wed	0730	510	BaSh			Ht,Vt				0	34-43, 45-51, 2-8, 10-12, 14-23	
 3580386	Arbetstid	Wed	0730	510	GaHe							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3581516	Arbetstid	Wed	0730	510	AlCh			Ht,Vt				0	34-43, 45-51, 2-8, 10-12, 14-23	
+3593718	Arbetstid	Wed	0730	510	JonLeh			Ht,Vt				0	34-43, 45-51, 2-8, 10-12, 14-23	
 3291661	Mobile Collection	Wed	0745	15	AsRo	8A,8B,8C						0	34-43, 45-51, 2-8, 10-12, 14-23	
 3291778	Arbetstid	Wed	0745	540	AlWe							0	34-43, 45-51, 2-8, 10-12, 14-23	
-3292275	Arbetstid	Wed	0745	480	AvdM							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292290	Arbetstid	Wed	0745	540	CaSk							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292351	Arbetstid	Wed	0745	480	JoGe							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292433	Arbetstid	Wed	0745	460	TrPl							0	34-43, 45-51, 2-8, 10-12, 14-23	
@@ -602,11 +627,12 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3581506	Arbetstid	Wed	0745	435	MatOhl			Ht,Vt				0	34-43, 45-51, 2-8, 10-12, 14-23	
 3291965	Arbetstid	Wed	0750	540	GiPr							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292268	Arbetstid	Wed	0750	535								0	34-43, 45-51, 2-8, 10-12, 14-23	
+3292288	Arbetstid	Wed	0750	535	ChLa							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292292	Arbetstid	Wed	0750	540	EmLa							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292371	Arbetstid	Wed	0750	490	LSt							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292421	Arbetstid	Wed	0750	535	PhGh							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292752	Arbetstid	Wed	0750	535	MaEn							0	34-43, 45-51, 2-8, 10-12, 14-23	
-3292288	Arbetstid	Wed	0755	535	ChLa							0	34-43, 45-51, 2-8, 10-12, 14-23	
+3292275	Arbetstid	Wed	0755	480	AvdM							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3291828	HKK	Wed	0800	120	MaEn	8C:2	Home Economics	Ht				0	34-43, 45-51	
 3291829	HKK	Wed	0800	120	MaEn	8C:1	Home Economics	Vt				0	2-8, 10-12, 14-23	
 3291830	BL	Wed	0800	120	GiPr	8C:2	Art	Vt				0	2-8, 10-12, 14-23	
@@ -626,6 +652,8 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3584959	Arbetstid	Wed	0800	450	AnnBro			Ht,Vt				0	34-43, 45-51, 2-8, 10-12, 14-23	
 3586090	Mobile Collection	Wed	0800	60	BaSh					34-43, 45-51, 3-8, 10, 12, 14-19, 21-23		0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3588251	Student Support	Wed	0800	270	JohFra,LinRau	8C: Support	B29					0	34-43, 45-51, 2-8, 10-12, 14-23	
+3593730	Arbetstid	Wed	0800	510	HaLu			Ht,Vt				0	34-43, 45-51, 2-8, 10-12, 14-23	
+3593740	Arbetstid	Wed	0800	510	JeHe			Ht,Vt				0	34-43, 45-51, 2-8, 10-12, 14-23	
 3291699	Mobile Collection	Wed	0805	15	AsRo	9A,9B,9C						0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292052	IDH	Wed	0805	45	ChPl	4A	Gym Hall				34	0	35-43, 45-51, 2-8, 10-12, 14-23	
 3292568	Arbetstid	Wed	0805	525	KaMa							0	34-43, 45-51, 2-8, 10-12, 14-23	
@@ -639,6 +667,7 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3292180	SVA	Wed	0820	60	EmLa	9SVA1	C30					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292299	Arbetstid	Wed	0820	505	FaCa							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292670	SV	Wed	0820	60	JoEn	9SV1	B23					0	34-43, 45-51, 2-8, 10-12, 14-23	
+3602217	MVP	Wed	0820	50	JeHe,HeKa	6B	D43			41		0	41	
 3291955	SLTM	Wed	0825	60	FaCa	5B:1	Wood Craft	Vt				0	2-8, 10-12, 14-23	
 3292445	SLTX	Wed	0825	60	KaMa	5B:2	Textiles	Vt				0	2-8, 10-12, 14-23	
 3291956	SLTX	Wed	0830	60	KaMa	5B:1	Textiles	Ht				0	34-43, 45-51	
@@ -654,11 +683,11 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3292337	Arbetstid	Wed	0850	430	JaOm							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292405	Arbetstid	Wed	0850	475	MiJä							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292651	Changing Time	Wed	0850	10	ChPl	4A	Changing Room				34	0	35-43, 45-51, 2-8, 10-12, 14-23	
+3292368	Arbetstid	Wed	0855	460	MaFu							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292532	HoD Time	Wed	0855	60	JaOm							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3291818	Changing Time	Wed	0900	5	ChPl	5A	Changing Room					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3291962	MA	Wed	0900	60	LSt	6A	D42					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292085	Arbetstid	Wed	0900	455	DaCa							0	34-43, 45-51, 2-8, 10-12, 14-23	
-3292368	Arbetstid	Wed	0900	455	MaFu							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292727	Break Junior	Wed	0900	15		4A	Outside Junior				34	0	35-43, 45-51, 2-8, 10-12, 14-23	
 3299373	Planning Time	Wed	0900	60	LilCor,MaFu					34-43, 45-51, 3-8, 10-12, 14-19, 21-23		0	34-43, 45-51, 3-8, 10-12, 14-19, 21-23	
 3359153	Break Duty Junior	Wed	0900	20	DaCa		Outside Junior			34-43, 45-51, 3-8, 10-12, 14-19, 21-23		0	34-43, 45-51, 3-8, 10-12, 14-19, 21-23	
@@ -669,12 +698,14 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3567339	Student Lounge	Wed	0900	90	AnnFel		Student Lounge					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3581729	Team Teaching	Wed	0900	60	AnPe	6A						0	34-43, 45-51, 2-8, 10-12, 14-23	
 3588932	On Call Substitution	Wed	0900	45	HayAlj							0	34-43, 45-51, 2-8, 10-12, 14-23	
+3593710	Arbetstid	Wed	0900	420	HeKa			Ht,Vt				0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292154	SO	Wed	0905	60	MiJä	8A	C32					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292488	IDH	Wed	0905	45	ChPl	5A	Gym Hall					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3291853	NO Lab	Wed	0910	60	JoGe	8B:1	A14					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3291854	MU	Wed	0910	60	AlWe	8B:2	Music					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3291973	NO	Wed	0910	50	NaAf	6B	D43					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292398	Arbetstid	Wed	0910	450	MeAb							0	34-43, 45-51, 2-8, 10-12, 14-23	
+3602214	MVP	Wed	0910	50	JeHe,HeKa	6B	D43			40		0	40	
 3292076	NO	Wed	0915	45	TrPl	4A	D45				34	0	35-43, 45-51, 2-8, 10-12, 14-23	
 3292394	Arbetstid	Wed	0915	440	MatWik							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292373	Arbetstid	Wed	0920	445	MaBe							0	34-43, 45-51, 2-8, 10-12, 14-23	
@@ -731,11 +762,10 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3292303	Department Meeting - Science	Wed	1035	60	NaAf,TrPl,JoGe,ChPl		A14	Jv				0	34, 36, 38, 40, 42, 46, 48, 50, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22	
 3292541	Rast	Wed	1040	30	JeSe							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292614	Rast	Wed	1040	30	MeAb							0	34-43, 45-51, 2-8, 10-12, 14-23	
-3292035	Lunch	Wed	1045	25	RoDi,MaEn,PhGh,LoGl,GiPr,CaSk,LSt,AlWe	4A,5A,5B,6A,6B	Big Lunch Room					0	34-43, 45-51, 2-8, 10-12, 14-23	
+3292035	Lunch	Wed	1045	25	HayAlj,RoDi,MaEn,PhGh,LoGl,GiPr,CaSk,LSt,AlWe	4A,5A,5B,6A,6B	Big Lunch Room					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292504	Rast	Wed	1055	30	ErWi							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292581	Rast	Wed	1055	30	LilCor							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292603	Rast	Wed	1055	30	MaFu							0	34-43, 45-51, 2-8, 10-12, 14-23	
-3292520	Rast	Wed	1100	30	HayAlj							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3359163	Break Duty Junior	Wed	1100	30	DaWr		Student Lounge					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3586081	Reception	Wed	1100	60	LaCo					34-43, 45-51, 3-8, 10, 12, 14-19, 21-23		0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3291867	Rast	Wed	1110	30	AlWe							0	34-43, 45-51, 2-8, 10-12, 14-23	
@@ -747,6 +777,7 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3291826	Lunch	Wed	1115	20	MeAb,FaCa,AnnFel,EmLa,DaCa	7A,7B	Big Lunch Room					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3291848	Lunch	Wed	1115	20	MaBe,JoEn,LiJä,AnPe,AsRo	8A,8B,8C	Big Lunch Room					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292476	Rast	Wed	1115	30	ChLa							0	34-43, 45-51, 2-8, 10-12, 14-23	
+3292520	Rast	Wed	1115	30	HayAlj							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292586	Rast	Wed	1115	30	LinRau							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3431875	Student Activity Time	Wed	1115	30	KaMa							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3567356	Student Lounge	Wed	1115	30	RoDi		Student Lounge					0	34-43, 45-51, 2-8, 10-12, 14-23	
@@ -780,7 +811,6 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3292626	Rast	Wed	1145	30	NaAf							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292673	HoY Time	Wed	1145	30	CaSk							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292719	Rast	Wed	1145	30	ChPl							0	34-43, 45-51, 2-8, 10-12, 14-23	
-3588992	On Call Substitution	Wed	1145	60	LiJä							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3291632	Mont Music	Wed	1150	60	AlWe		A11					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3291772	SVA	Wed	1155	60	HayAlj	7SVA2	B22					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3291807	SVA	Wed	1155	60	EmLa	7SVA1	C30					0	34-43, 45-51, 2-8, 10-12, 14-23	
@@ -807,6 +837,7 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3292108	Changing Time	Wed	1225	10	OlGo	6A	Changing Room					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292261	M2FR	Wed	1225	55	MaFu	9FrC	C37					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292338	Rast	Wed	1225	30	KaMa							0	34-43, 45-51, 2-8, 10-12, 14-23	
+3594947	Jr. Pickup	Wed	1225	5	MatWik		Aesthetics Corridor					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3291950	EN	Wed	1230	60	ErWi	4A	D45				34	0	35-43, 45-51, 2-8, 10-12, 14-23	
 3292187	EN	Wed	1230	60	MatWik	6B	D43					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292217	SO	Wed	1230	45	PhGh	5B	D41					0	34-43, 45-51, 2-8, 10-12, 14-23	
@@ -815,6 +846,7 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3562365	Student Support	Wed	1230	60	JohFra,LinRau	9B:Support DWT	B29					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3562399	Student Support	Wed	1230	60	JohFra,AnHo,LinRau	9B:Support AW						0	34-43, 45-51, 2-8, 10-12, 14-23	
 3588937	On Call Substitution	Wed	1230	60	DaCa							0	34-43, 45-51, 2-8, 10-12, 14-23	
+3602219	MVP	Wed	1230	60	HeKa,JonLeh	6B	C39			43		0	43	
 3292157	Rast	Wed	1235	30	OlGo							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292750	NO	Wed	1235	55	LSt	6A	D42					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3588308	Rast	Wed	1240	30	LoGl							0	34-43, 45-51, 2-8, 10-12, 14-23	
@@ -842,6 +874,7 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3584717	Gymnastics	Wed	1310	130	OlGo	7A	VGF-hallen			42		0	42	
 3588990	On Call Substitution	Wed	1315	60	LoGl							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3589022	Break Junior	Wed	1315	15		5A,5B	Outside Junior					0	34-43, 45-51, 2-8, 10-12, 14-23	
+3593556	Break Duty Junior	Wed	1315	15	TrPl		Outside Junior			34-43, 45-51, 3-8, 10-12, 14-19, 21-23		0	34-43, 45-51, 3-8, 10-12, 14-19, 21-23	
 3292018	NO Lab	Wed	1320	60	JoGe	9A:2	D48					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292170	MU	Wed	1320	60	MaBe	9A:1	Music					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3566497	Junior Club	Wed	1320	220	DiHe							0	34-43, 45-51, 2-8, 10-12, 14-23	
@@ -859,6 +892,7 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3562404	Student Support	Wed	1330	60	JohFra,AnHo,LinRau	9B:Support AW						0	34-43, 45-51, 2-8, 10-12, 14-23	
 3581730	Team Teaching	Wed	1330	40	AnPe	6B						0	34-43, 45-51, 2-8, 10-12, 14-23	
 3591570	Junior Support	Wed	1330	60	AnnFel					34-43, 45-51, 3-8, 10, 12, 14-19, 21-23		0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
+3602218	MVP	Wed	1330	50	JeHe,HeKa	6B	D43			42		0	42	
 3292608	Rast	Wed	1340	30	MatWik							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292388	Planning Time	Wed	1350	60	LilCor,DaCa							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292682	Cogito	Wed	1350	60	MaFu							0	34-43, 45-51, 2-8, 10-12, 14-23	
@@ -872,6 +906,7 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3291653	NO	Wed	1420	60	ChPl	7B	A12				41	0	34-40, 42-43, 45-51, 2-8, 10-12, 14-23	
 3291654	IDH	Wed	1420	60	OlGo	7A	Gym Hall	Jv			40, 42	0	34, 36, 38, 46, 48, 50, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22	
 3291678	IDH	Wed	1420	60	OlGo	7A	B24,Outside	Uv			41	0	35, 37, 39, 45, 47, 49, 51, 3, 5, 7, 11, 15, 17, 19, 21, 23	
+3292474	Support Session - Swedish	Wed	1420	60	CaSk		D44					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292636	HoY Time	Wed	1420	60	AnPe							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292683	Support Session - English	Wed	1420	60	ErWi							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3291671	Mobile Return	Wed	1425	15	AsRo	8B						0	34-43, 45-51, 2-8, 10-12, 14-23	
@@ -882,9 +917,7 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3292047	NO Lab	Wed	1430	60	JoGe	9A:1	D48					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292132	EN	Wed	1430	60	MatWik	9C	C39					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292228	Union Work	Wed	1430	60	ChBe,JoEn,EmLa,TaSc,JeSe					35, 40, 43, 48, 4, 8, 12, 17, 21		0	35, 40, 43, 48, 4, 8, 12, 17, 21	
-3292474	Support Session - Swedish	Wed	1430	60	CaSk		D44					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292684	Support Session - SVA	Wed	1430	60	HayAlj		D40					0	34-43, 45-51, 2-8, 10-12, 14-23	
-3292689	Detention	Wed	1430	60	DaWr	Detention Jr.						0	34-43, 45-51, 2-8, 10-12, 14-23	
 3292705	Support Session - Social Science	Wed	1430	60	PhGh							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3431878	Support Session - Craft	Wed	1430	45	KaMa		Textiles					0	34-43, 45-51, 2-8, 10-12, 14-23	
 3576998	Student Support	Wed	1430	60	AvdM							0	34-43, 45-51, 2-8, 10-12, 14-23	
@@ -910,8 +943,8 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3292267	Department Meeting - Aesthetics	Wed	1540	60	MaBe,FaCa,MaEn,LoGl,KaMa,GiPr,AlWe		HKK	Jv				0	34, 36, 38, 40, 42, 46, 48, 50, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22	
 3292289	Department Time	Wed	1540	60	MaBe,FaCa,MaEn,LoGl,KaMa,GiPr,AlWe			Uv				0	35, 37, 39, 41, 45, 47, 49, 51, 3, 5, 7, 11, 15, 17, 19, 21, 23	
 3292508	Department Time	Wed	1540	60	HayAlj,JoEn,PhGh,BjJo,MiJä,ChLa,EmLa,CaSk			Uv				0	35, 37, 39, 41, 45, 47, 49, 51, 3, 5, 7, 11, 15, 17, 19, 21, 23	
-3292514	Department Meeting - Social Science	Wed	1540	60	PhGh,BjJo,MiJä,EmLa			Jv				0	34, 36, 38, 40, 42, 46, 48, 50, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22	
-3292515	Department Meeting - Swedish	Wed	1540	60	HayAlj,JoEn,PhGh,LiJä,ChLa,EmLa,CaSk			Jv				0	34, 36, 38, 40, 42, 46, 48, 50, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22	
+3292514	Department Meeting - Social Science	Wed	1540	60	PhGh,BjJo,MiJä,EmLa		B25	Jv				0	34, 36, 38, 40, 42, 46, 48, 50, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22	
+3292515	Department Meeting - Swedish	Wed	1540	60	HayAlj,JoEn,LiJä,ChLa,EmLa,CaSk			Jv				0	34, 36, 38, 40, 42, 46, 48, 50, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22	
 3559244	Arbetstid	Thur	0700	510	TiLe			Ht,Vt				0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
 3559259	Arbetstid	Thur	0700	510	TaSc			Ht,Vt				0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
 3559302	Arbetstid	Thur	0700	510	RaSc			Ht,Vt				0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
@@ -926,6 +959,8 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3559295	Arbetstid	Thur	0730	510	BaSh			Ht,Vt				0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
 3580398	Arbetstid	Thur	0730	510	GaHe			Ht,Vt				0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
 3581517	Arbetstid	Thur	0730	510	AlCh			Ht,Vt				0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
+3593712	Arbetstid	Thur	0730	510	HeKa			Ht,Vt				0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
+3593720	Arbetstid	Thur	0730	510	JonLeh			Ht,Vt				0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
 3292283	Arbetstid	Thur	0745	240	BjJo							0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
 3292304	Arbetstid	Thur	0745	480	DaCa							0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
 3292332	Arbetstid	Thur	0745	385	HayAlj							0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
@@ -934,7 +969,8 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3292430	Arbetstid	Thur	0745	450	TrPl							0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
 3292473	Arbetstid	Thur	0745	375	CaSk							0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
 3581509	Arbetstid	Thur	0745	390	MatOhl			Ht,Vt				0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
-3291945	Arbetstid	Thur	0750	365	ChLa							0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
+3593737	Arbetstid	Thur	0745	510	JeHe			Ht,Vt				0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
+3291945	Arbetstid	Thur	0750	390	ChLa							0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
 3292272	Arbetstid	Thur	0750	450	AnPe							0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
 3292309	Arbetstid	Thur	0750	465	EmLa							0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
 3292319	Arbetstid	Thur	0750	430	ErWi							0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
@@ -954,7 +990,7 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3292439	Arbetstid	Thur	0750	525	AlWe							0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
 3292350	Arbetstid	Thur	0755	505	JoGe							0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
 3292397	Arbetstid	Thur	0755	470	MeAb							0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
-3291716	Year Team Meeting 9	Thur	0800	50	LilCor,JoEn,RyHa,BjJo,ChLa,MaFu,JaOm,LePa		B23					0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
+3291716	Year Team Meeting 9	Thur	0800	50	LilCor,JoEn,RyHa,BjJo,ChLa,MaFu,JaOm,LePa		B28					0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
 3291718	Year Team Meeting 8	Thur	0800	50	MeAb,NaAf,MaBe,JoGe,OlGo,LiJä,MiJä,AnPe		B25					0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
 3291719	Year Team Meeting 7	Thur	0800	50	RoDi,EmLa,HaLu,DaCa,MaMe,MatWik		B24					0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
 3291995	Year Team Meeting	Thur	0800	50	HayAlj,FaCa,TrPl,MaEn,PhGh,KaMa,ChPl,GiPr,CaSk,LSt,AlWe,ErWi		D42					0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
@@ -969,6 +1005,7 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3584961	Arbetstid	Thur	0800	450	AnnBro			Ht,Vt				0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
 3588252	Student Support	Thur	0800	270	JohFra,LinRau	8C: Support	B29					0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
 3589619	Support Session - PE	Thur	0800	50	OlGo		Gym Hall					0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
+3593731	Arbetstid	Thur	0800	510	HaLu			Ht,Vt				0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
 3277083	Mentor Day	Thur	0815	145	HayAlj,CaSk,AlWe	4A	D45			33		0	33	
 3277096	Mentor Day	Thur	0830	135	TrPl,KaMa,ChPl	5A	D40			33		0	33	
 3277109	Mentor Day	Thur	0830	135	TrPl,LoGl,GiPr	5B	D41			33		0	33	
@@ -1065,7 +1102,6 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3291814	Lunch	Thur	1045	25	HayAlj,MaBe,TrPl,RoDi,MaEn,PhGh,CaSk,LSt,ErWi	4A,5A,5B,6A,6B	Big Lunch Room					0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
 3586082	Reception	Thur	1100	60	LaCo					34-43, 45-51, 3-8, 10, 12, 14-19, 21-23		0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3591687	Break Duty Junior	Thur	1100	45	DaWr		Outside Junior					0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
-3292059	Rast	Thur	1105	30	LiJä							0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
 3292480	Rast	Thur	1105	30	ChLa							0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
 3277130	Mentor Day	Thur	1110	35	FaCa,PhGh,CaSk	6A	D42			33		0	33	
 3277151	Mentor Day	Thur	1110	35	MaEn,CaSk,LSt	6B	D43			33		0	33	
@@ -1168,6 +1204,7 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3581731	Team Teaching	Thur	1230	40	AnPe	9C						0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
 3589004	On Call Substitution	Thur	1230	60	MatWik							0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
 3291881	Changing Time	Thur	1240	5	ChPl	6B	Changing Room				43	0	34-42, 45-51, 2-8, 10-12, 14-17, 19-23	
+3292059	Rast	Thur	1240	30	LiJä							0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
 3292065	IDH	Thur	1245	50	ChPl	6B	Gym Hall				43	0	34-42, 45-51, 2-8, 10-12, 14-17, 19-23	
 3297435	Planning Time	Thur	1245	60	ChLa							0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
 3292092	Rast	Thur	1250	30	AlWe							0	34-43, 45-51, 2-8, 10-12, 14-17, 19-23	
@@ -1247,32 +1284,34 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3559298	Arbetstid	Fri	0730	510	BaSh			Ht,Uv				0	34-43, 45-51, 3, 5, 7, 11, 15, 17, 19, 21, 23	
 3580400	Arbetstid	Fri	0730	480	GaHe							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3581518	Arbetstid	Fri	0730	480	AlCh			Ht,Vt				0	34-43, 45-51, 2-8, 10-11, 14-17, 19-22	
+3593713	Arbetstid	Fri	0730	480	HeKa							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
+3593725	Arbetstid	Fri	0730	480	JonLeh			Ht,Vt				0	34-43, 45-51, 2-8, 10-11, 14-17, 19-22	
 3291780	Mobile Collection	Fri	0745	15	AsRo	8A,8B,8C,9C						0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291781	Arbetstid	Fri	0745	375	AlWe							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291996	Arbetstid	Fri	0745	415	HayAlj							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
-3292279	Arbetstid	Fri	0745	420	AvdM							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292285	Arbetstid	Fri	0745	325	BjJo							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292287	Arbetstid	Fri	0745	315	CaSk							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292324	Arbetstid	Fri	0745	475	DaCa							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
-3292383	Arbetstid	Fri	0745	475	MaFu							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292417	Arbetstid	Fri	0745	480	OlGo							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292435	Arbetstid	Fri	0745	405	TrPl							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292527	Arbetstid	Fri	0745	430	JaOm							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3562235	Arbetstid	Fri	0745	390	RahHan							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3581510	Arbetstid	Fri	0745	405	MatOhl			Ht,Vt				0	34-43, 45-51, 2-8, 10-11, 14-17, 19-22	
+3593738	Arbetstid	Fri	0745	510	JeHe			Ht,Vt				0	34-43, 45-51, 2-8, 10-11, 14-17, 19-22	
 3291971	Arbetstid	Fri	0750	425	LoGl							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292241	Arbetstid	Fri	0750	390	AnPe							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292346	Arbetstid	Fri	0750	395	JoEn							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292360	Arbetstid	Fri	0750	430	LilCor							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
+3292383	Arbetstid	Fri	0750	470	MaFu							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292407	Arbetstid	Fri	0750	430	NaAf							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291700	Mobile Collection	Fri	0755	15	AsRo	9A,9B						0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
-3292295	Arbetstid	Fri	0755	395	ChLa							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
+3292295	Arbetstid	Fri	0755	340	ChLa							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292627	Arbetstid	Fri	0755	440	RyHa							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291675	Changing Time	Fri	0800	5	AnPe	8C	Changing Room				36	0	34-35, 37-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291726	Planning Time	Fri	0800	60	MiJä							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291766	SVA	Fri	0800	45	LiJä	5SVA2	D41					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
-3291808	BL	Fri	0800	60	LoGl	4a:1	D47	Ht				0	34-43, 45-51	
-3291809	MU	Fri	0800	60	AlWe	4A:2	Music	Ht				0	34-43, 45-51	
+3291808	BL	Fri	0800	60	LoGl	4a:1	D47	Ht			42	0	34-41, 43, 45-51	
+3291809	MU	Fri	0800	60	AlWe	4A:2	Music	Ht			42	0	34-41, 43, 45-51	
 3291816	BL	Fri	0800	60	LoGl	4A:2	D47	Vt				0	2-8, 10-11, 14-17, 19-22	
 3291817	MU	Fri	0800	60	AlWe	4a:1	Music	Vt				0	2-8, 10-11, 14-17, 19-22	
 3291875	B-support	Fri	0800	60	JoEn	8EnSv1	B23				36	0	34-35, 37-43, 45-51, 2-8, 10-11, 14-17, 19-23	
@@ -1281,6 +1320,7 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3291935	M2SP	Fri	0800	60	DaCa	8SpA	C34				36	0	34-35, 37-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291937	M2SP	Fri	0800	60	LilCor	8SpB	C36				36	0	34-35, 37-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292182	M2FR	Fri	0800	60	MaFu	8FrAB	C37				36	0	34-35, 37-43, 45-51, 2-8, 10-11, 14-17, 19-23	
+3292279	Arbetstid	Fri	0800	405	AvdM							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292357	Arbetstid	Fri	0800	450	KaMa							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292409	Arbetstid	Fri	0800	450	FaCa							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292706	Team Teaching	Fri	0800	60	OlGo							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
@@ -1297,6 +1337,7 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3584956	Arbetstid	Fri	0800	390	AnnBro			Ht,Vt				0	34-43, 45-51, 2-8, 10-11, 14-17, 19-22	
 3586093	Mobile Collection	Fri	0800	60	BaSh					34-43, 45-51, 3-8, 10, 12, 14-19, 21-23		0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3588253	Student Support	Fri	0800	270	JohFra,LinRau	8C: Support	B29					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
+3593732	Arbetstid	Fri	0800	510	HaLu			Ht,Vt				0	34-43, 45-51, 2-8, 10-11, 14-17, 19-22	
 3291918	MA	Fri	0805	60	JaOm	9C	A13					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291947	IDH	Fri	0805	50	AnPe	8C	Gym Hall	Jv		34, 36, 38, 40, 42, 46, 48, 50, 2, 4, 6, 8, 10, 14, 16, 20, 22	36	0	34, 38, 40, 42, 46, 48, 50, 2, 4, 6, 8, 10, 14, 16, 20, 22	
 3291997	Arbetstid	Fri	0805	220	GiPr							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
@@ -1313,6 +1354,7 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3277097	Mentor Day	Fri	0830	135	TrPl,KaMa,ChPl	5A	D40			33		0	33	
 3277110	Mentor Day	Fri	0830	135	TrPl,LoGl,GiPr	5B	D41			33		0	33	
 3559308	Arbetstid	Fri	0830	510	LaCo			Ht,Vt				0	34-43, 45-51, 2-8, 10-11, 14-17, 19-22	
+3594895	Jr. Pickup	Fri	0835	10	MeAb		Outside Junior					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291951	EN	Fri	0845	60	MeAb	6A	D42					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292096	Break Junior	Fri	0845	15		5A	Outside Junior					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292183	Break Junior	Fri	0845	15		5B	Outside Junior					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
@@ -1331,7 +1373,7 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3277193	Mentor Day	Fri	0900	135	EmLa					33		0	33	
 3277194	Mentor Day	Fri	0900	135	RoDi,EmLa,MatWik	7B	C39			33		0	33	
 3291948	SLTX	Fri	0900	60	KaMa	5A:1	Textiles	Ht				0	34-43, 45-51	
-3291959	Break Junior	Fri	0900	15		4A	Outside Junior					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
+3291959	Break Junior	Fri	0900	15		4A	Outside Junior				42	0	34-41, 43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291966	NO	Fri	0900	60	TrPl	5B	D41					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292418	Arbetstid	Fri	0900	370	PhGh							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292460	Rast	Fri	0900	30	CaSk							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
@@ -1341,6 +1383,7 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3562358	Student Support	Fri	0900	180	JohFra,LinRau	6A:Support	B29					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3566494	Arbetstid	Fri	0900	510	DiHe							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3566507	Reception	Fri	0900	120	DiHe							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
+3586116	Regional Conference	Fri	0900	420		4A,5A,5B,6A,6A:Support,6B,7A,7B,8A,8A:Support,8B,8C,9A,9B,9B:Support AW,9B:Support DWT,9C				42		0	42	
 3589005	On Call Substitution	Fri	0900	60	ErWi							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291690	Changing Time	Fri	0905	5	OlGo,AnPe	8A,8B	Changing Room				36	0	34-35, 37-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292356	NO Lab	Fri	0905	60	ChPl	7A:2	A14					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
@@ -1350,9 +1393,9 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3292126	IDH	Fri	0910	50	OlGo	8A	Gym Hall	Jv			36	0	34, 38, 40, 42, 46, 48, 50, 2, 4, 6, 8, 10, 14, 16, 20, 22	
 3292135	IDH	Fri	0910	50	OlGo	8A	B24,Outside	Uv				0	35, 37, 39, 41, 45, 47, 49, 51, 3, 5, 7, 11, 15, 17, 19, 21, 23	
 3292148	IDH	Fri	0910	50	AnPe	8B	Gym Hall	Uv				0	35, 37, 39, 41, 45, 47, 49, 51, 3, 5, 7, 11, 15, 17, 19, 21, 23	
-3292728	Mont Music	Fri	0910	60	AlWe		A11				45, 5	0	34-43, 46-51, 2-4, 6-8, 10-11, 14-17, 19-23	
+3292728	Mont Music	Fri	0910	60	AlWe		A11				41, 45, 5	0	34-40, 42-43, 46-51, 2-4, 6-8, 10-11, 14-17, 19-23	
 3291744	Arbetstid	Fri	0915	360	MaEn							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
-3291890	Mentor Time	Fri	0915	30	HayAlj	4A	D45					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
+3291890	Mentor Time	Fri	0915	30	HayAlj	4A	D45				42	0	34-41, 43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292344	Arbetstid	Fri	0915	365	JoGe							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292526	Rast	Fri	0915	30	JaOm							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292552	Rast	Fri	0915	30	JoEn							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
@@ -1373,7 +1416,7 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3588991	On Call Substitution	Fri	0930	60	RyHa							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291770	SVA	Fri	0945	60	LiJä	6SVA2	D43					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291859	Prep Class	Fri	0945	60	ChLa	6Prep	B28					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
-3291892	SO	Fri	0945	60	PhGh	4A	D45					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
+3291892	SO	Fri	0945	60	PhGh	4A	D45				42	0	34-41, 43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292147	SVA	Fri	0945	60	HayAlj	6SVA1	D42					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292578	SV	Fri	0945	60	CaSk	6SV1	D44					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292732	SLTX	Fri	0945	60	KaMa	5A:2	Textiles	Vt				0	2-8, 10-11, 14-17, 19-22	
@@ -1388,7 +1431,9 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3292370	Changing Time	Fri	1000	10	OlGo	8A	Changing Room				36	0	34-35, 37-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3588310	Rast	Fri	1000	30	LoGl							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3588935	On Call Substitution	Fri	1000	60	MaBe							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
+3602623	Department Meeting	Fri	1000	60	BaSh							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291827	NO	Fri	1010	60	NaAf	8C	A17					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
+3292349	Rast	Fri	1010	30	KaMa							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291870	Life Skills	Fri	1015	60	OlGo	8B						0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291893	NO Lab	Fri	1015	55	ChPl	7A:1	A14					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291953	Mont IDH	Fri	1015	60	AnPe		Gym Hall				45, 5	0	34-43, 46-51, 2-4, 6-8, 10-11, 14-17, 19-23	
@@ -1410,10 +1455,9 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3277111	Lunch	Fri	1045	25	TrPl	5B				33		0	33	
 3277126	Lunch	Fri	1045	25	CaSk	6A				33		0	33	
 3277150	Lunch	Fri	1045	25	CaSk	6B				33		0	33	
-3291964	Lunch	Fri	1045	25	FaCa,TrPl,AlCh,RoDi,MaEn,LoGl,CaSk	4A,5A,5B,6A,6B	Big Lunch Room					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
+3291964	Lunch	Fri	1045	25	FaCa,TrPl,AlCh,RoDi,MaEn,LoGl,KaMa,CaSk	4A,5A,5B,6A,6B	Big Lunch Room				42	0	34-41, 43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291982	Rast	Fri	1050	30	LSt							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292479	Rast	Fri	1050	30	ChLa							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
-3292349	Rast	Fri	1055	30	KaMa							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292199	Rast	Fri	1100	30	PhGh							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292523	Rast	Fri	1100	30	HayAlj							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3586086	Reception	Fri	1100	60	RaSc			Jv				0	34, 36, 38, 40, 42, 46, 48, 50, 2, 4, 6, 8, 10, 14, 16, 20, 22	
@@ -1425,7 +1469,7 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3277129	Mentor Day	Fri	1110	80	FaCa,PhGh,CaSk	6A	D42			33		0	33	
 3277152	Mentor Day	Fri	1110	80	MaEn,CaSk,LSt	6B	D43			33		0	33	
 3291627	Break Junior	Fri	1110	20		6A,6B	Outside Senior,Student Lounge					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
-3291806	Break Junior	Fri	1110	30		4A,5A,5B	Outside Junior					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
+3291806	Break Junior	Fri	1110	30		4A,5A,5B	Outside Junior				42	0	34-41, 43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3360445	Break Duty Junior	Fri	1110	30	MaEn		Outside Junior			34-43, 45-51, 3-8, 10-12, 14-19, 21-23		0	34-43, 45-51, 3-8, 10-12, 14-19, 21-23	
 3581170	Break Duty Junior	Fri	1110	30	MaBe		Outside Junior					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3277156	Lunch	Fri	1115	20	EmLa	7A				33		0	33	
@@ -1453,14 +1497,14 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3292016	Break Senior	Fri	1135	20		7A,7B	Outside Senior,Student Lounge					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3567345	Student Lounge	Fri	1135	85	AnnFel		Student Lounge					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3567361	Support Session Maths	Fri	1135	20	AnPe		B24					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
-3291759	SVA	Fri	1140	60	HayAlj	4SVA	D45					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
-3291786	Prep Class	Fri	1140	60		4Prep						0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
+3291759	SVA	Fri	1140	60	HayAlj	4SVA	D45				42	0	34-41, 43, 45-51, 2-8, 10-11, 14-17, 19-23	
+3291786	Prep Class	Fri	1140	60		4Prep					42	0	34-41, 43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291863	MU	Fri	1140	60	AlWe	5A:2	Music					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291940	BL	Fri	1140	60	LoGl	5A:1	D47					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292186	Lunch	Fri	1140	20	LilCor,JoEn,BjJo,ChLa,MaFu,DaCa	9A,9B,9C	Big Lunch Room					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292410	SO	Fri	1140	60	PhGh	5B	D41					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292512	Rast	Fri	1140	30	FaCa							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
-3292717	SV	Fri	1140	60	CaSk	4SV	D44					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
+3292717	SV	Fri	1140	60	CaSk	4SV	D44				42	0	34-41, 43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292561	Rast	Fri	1145	30	JoGe							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292599	Rast	Fri	1145	30	MaBe							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291709	Rast	Fri	1150	30	MaEn							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
@@ -1497,14 +1541,19 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3589023	Break Junior	Fri	1230	15		6A,6B	Outside Senior					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3591663	Break Duty Junior	Fri	1230	15	MaBe		Outside Junior					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3591678	Break Duty Junior	Fri	1230	15	MaEn		Outside Junior			34-43, 45-51, 3-8, 10-12, 14-19, 21-23		0	34-43, 45-51, 3-8, 10-12, 14-19, 21-23	
+3593481	Break Duty Junior	Fri	1230	15	JeHe		Outside Junior					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292436	Rast	Fri	1235	30	OlGo							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
-3291832	MA	Fri	1240	60	TrPl	4A	D45					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
+3291832	MA	Fri	1240	60	TrPl	4A	D45				42	0	34-41, 43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291628	NO	Fri	1245	60	NaAf	6A	D42					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291702	MA	Fri	1245	45	LSt	6B	D43					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291981	BL	Fri	1245	60	LoGl	5B:1	D47					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291984	MU	Fri	1245	60	AlWe	5B:2	Music					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292048	Mentor Time	Fri	1245	25	RoDi,MatWik	7B	C39					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292735	SO	Fri	1245	45	PhGh	5A	D40					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
+3602206	MVP	Fri	1245	60	MaEn,HeKa	6A	D42			40		0	40	
+3602212	MVP	Fri	1245	60	HeKa,JonLeh	6A	D42			45		0	45	
+3602213	MVP	Fri	1245	45	JeHe,HeKa	6B	D43			39		0	39	
+3602470	MVP	Fri	1245	60	JeHe,HeKa	6A	D42			47		0	47	
 3292505	HoD Time	Fri	1255	60	ErWi							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291849	Mentor Time	Fri	1300	25	AnnFel,DaCa	7A	A17					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292365	Rast	Fri	1300	30	MeAb							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
@@ -1520,9 +1569,9 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3567351	Rast	Fri	1325	30	AnnFel							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291639	IDH	Fri	1330	105	OlGo	9B	B24,Outside	Uv				0	35, 37, 39, 41, 45, 47, 49, 51, 3, 5, 7, 11, 15, 17, 19, 21, 23	
 3291733	IDH	Fri	1330	105	OlGo	9B	Gym Hall	Jv				0	34, 36, 38, 40, 42, 46, 48, 50, 2, 4, 6, 8, 10, 14, 16, 20, 22	
-3291758	Prep Class	Fri	1330	50	ChLa	7Prep						0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
+3291758	Prep Class	Fri	1330	50		7Prep						0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291952	SLTM	Fri	1330	105	FaCa	9C:1	Wood Craft	Vt				0	2-8, 10-11, 14-17, 19-22	
-3291969	SVA	Fri	1330	50	EmLa	7SVA1	C30					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
+3291969	SVA	Fri	1330	50	EmLa	7Prep,7SVA1	C30					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291988	SLTX	Fri	1330	105	KaMa	9C:2	Textiles	Vt				0	2-8, 10-11, 14-17, 19-22	
 3292017	SVA	Fri	1330	50	HayAlj	7SVA2	B22					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3292165	SLTX	Fri	1330	105	KaMa	9C:1	Textiles	Ht				0	34-43, 45-51	
@@ -1548,6 +1597,7 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3358930	Planning Time	Fri	1430	55	EmLa					34-43, 45-51, 3-8, 10-12, 14-19, 21-23		0	34-43, 45-51, 3-8, 10-12, 14-19, 21-23	
 3591517	Junior Club	Fri	1430	60	AnnFel					34-43, 45-51, 3-8, 10, 12, 14-19, 21-23		0	34-43, 45-51, 3-8, 10, 12, 14-19, 21-23	
 3292743	EN	Fri	1435	50	MatWik	9A	C39					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
+3292689	Mobile Return	Fri	1500	15	DaWr							0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291682	Mobile Return	Fri	1515	15	AsRo	8B,9C						0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291703	Changing Time	Fri	1515	10	OlGo	9B	Changing Room					0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
 3291642	Mobile Return	Fri	1525	15	AsRo	7A,7B						0	34-43, 45-51, 2-8, 10-11, 14-17, 19-23	
@@ -1559,6 +1609,7 @@ id	subject	day	starttime	length	teacher	group	room	period	experiod	inweek	exweek
 3558577	#movewithIES	Sat	0700	40	AliJal							0		
 3558997	All staff meeting	Sat	0700	40	AraSae,AnnBro,VilBya,AliJal,AmyMar,HaTh,TimCom							0		
 3588285	#movewithIES	Sat	0700	40	SidBil							0		
+3602011	#movewithIES	Sat	0700	40	JosJab							0		
 3291629	Mobile Collection		0000	30	AsRo							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3291640	Mobile Collection		0000	30	DaWr							0	34-43, 45-51, 2-8, 10-12, 14-23	
 3291651	Mobile Collection		0000	30	DaWr							0	34-43, 45-51, 2-8, 10-12, 14-23	
